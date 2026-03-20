@@ -1,0 +1,50 @@
+[
+  {
+    "id": "seed-1",
+    "title": "Triet Ly Vo Thuong Trong Phat Giao Viet",
+    "excerpt": "Goc nhin ve tinh vo thuong qua kien truc chua co va doi song tinh than nguoi Viet.",
+    "content": "Vo thuong la dong chay tu nhien cua su song. Trong van hoa Viet, tinh than ay the hien qua le nghi, kien truc chua co va cach ung xu huong den su tinh lang noi tam.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-01T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80",
+    "location": { "name": "Chua Mot Cot, Ha Noi", "lat": 21.0368, "lng": 105.8335 }
+  },
+  {
+    "id": "seed-2",
+    "title": "Dau An Gothic Trong Khong Gian Viet",
+    "excerpt": "Kham pha net dep kien truc thien chua giao trong boi canh van hoa Viet Nam.",
+    "content": "Tu duong net vom cao vuot den anh sang mau qua cua kinh, nha tho Gothic o Viet Nam tao nen mot doi thoai thu vi giua nghe thuat phuong Tay va tam hon phuong Dong.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-04T07:30:00.000Z",
+    "image": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?auto=format&fit=crop&w=1200&q=80",
+    "location": { "name": "Nha tho Duc Ba, TP.HCM", "lat": 10.7798, "lng": 106.6990 }
+  },
+  {
+    "id": "seed-3",
+    "title": "Huyen Tich Va Nghi Le Tho Mau Tam Phu",
+    "excerpt": "Ve dep cua tin nguong dan gian qua nghi le, am nhac va trang phuc hau dong.",
+    "content": "Tho Mau Tam Phu la su ket tinh cua tri tue dan gian, tam linh ban dia va su ton vinh nguoi me. Moi nghi le deu mang thong diep ve long biet on va su bao dung.",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-09T10:15:00.000Z",
+    "image": "https://images.unsplash.com/photo-1519491050282-cf00c82424b4?auto=format&fit=crop&w=1200&q=80",
+    "location": { "name": "Phu Day, Nam Dinh", "lat": 20.3019, "lng": 106.1750 }
+  },
+  {
+    "id": "seed-4",
+    "title": "Thien Nhien Trong Thien Quan Niem Son Mon",
+    "excerpt": "Khong gian vuon thien va nhung bai hoc ve su can bang noi tam.",
+    "content": "Nguoi tu hanh thuong xem thien nhien la mot phap duong lon. Moi khu vuon, con duong da va tieng chuong deu goi mo su quan sat va hien dien.",
+    "category": "Dau an Phat giao",
+    "status": "pending",
+    "authorName": "Thanh vien demo",
+    "createdAt": "2026-03-12T12:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
+    "location": { "name": "Thien vien Truc Lam, Da Lat", "lat": 11.9264, "lng": 108.4500 }
+  }
+]

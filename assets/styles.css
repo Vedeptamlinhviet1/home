@@ -1,0 +1,369 @@
+:root {
+  --bg: #f6f1e6;
+  --surface: #fffaf2;
+  --surface-2: #efe4d0;
+  --text: #2f2619;
+  --muted: #66553f;
+  --accent: #1d6f63;
+  --accent-2: #b5531a;
+  --danger: #9b2c2c;
+  --line: #d9c6a3;
+  --shadow: 0 18px 40px rgba(36, 28, 17, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 20% 15%, rgba(181, 83, 26, 0.16), transparent 40%),
+    radial-gradient(circle at 85% 30%, rgba(29, 111, 99, 0.2), transparent 38%),
+    linear-gradient(180deg, #f8f3ea 0%, #f2e7d7 100%);
+  color: var(--text);
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 0 20px 40px;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.ambient {
+  position: fixed;
+  border-radius: 50%;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.ambient-1 {
+  width: 320px;
+  height: 320px;
+  top: -80px;
+  right: -120px;
+  background: rgba(181, 83, 26, 0.14);
+  animation: drift 10s ease-in-out infinite;
+}
+
+.ambient-2 {
+  width: 260px;
+  height: 260px;
+  bottom: -80px;
+  left: -80px;
+  background: rgba(29, 111, 99, 0.16);
+  animation: drift 14s ease-in-out infinite reverse;
+}
+
+.site-header {
+  max-width: 1180px;
+  margin: 24px auto 18px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  background: color-mix(in srgb, var(--surface) 90%, white);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 18px;
+}
+
+.brand-block h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+  line-height: 0.95;
+}
+
+.eyebrow {
+  margin: 0 0 6px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 0.73rem;
+}
+
+.main-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.main-nav a,
+.auth-zone a,
+button,
+.button-link {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: var(--text);
+  text-decoration: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.main-nav a:hover,
+.main-nav a.active,
+.auth-zone a:hover,
+button:hover,
+.button-link:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  background: rgba(29, 111, 99, 0.12);
+}
+
+.auth-zone {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 22px;
+  margin-bottom: 18px;
+  animation: rise 0.5s ease;
+}
+
+.hero {
+  display: grid;
+  gap: 16px;
+  background: linear-gradient(145deg, rgba(29, 111, 99, 0.11), rgba(181, 83, 26, 0.12));
+}
+
+.hero h2,
+.section-title {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
+}
+
+.lead {
+  margin: 0;
+  color: var(--muted);
+  max-width: 72ch;
+}
+
+.grid {
+  display: grid;
+  gap: 14px;
+}
+
+.grid.cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid.cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fffcf6;
+}
+
+.card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.card h3,
+.post-title {
+  margin: 0;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.6rem;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.button-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.button-primary:hover {
+  background: #165b51;
+}
+
+.button-danger {
+  background: var(--danger);
+  color: #fff;
+}
+
+.button-danger:hover {
+  background: #7b1f1f;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px 12px;
+  font: inherit;
+  background: #fff;
+}
+
+textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  font-size: 0.9rem;
+  color: var(--muted);
+  display: grid;
+  gap: 6px;
+}
+
+.info-box {
+  border-radius: 14px;
+  padding: 12px;
+  border: 1px dashed var(--line);
+  color: var(--muted);
+}
+
+#map {
+  width: 100%;
+  height: 380px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+
+.table-wrap {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid var(--line);
+  text-align: left;
+  padding: 10px 8px;
+  vertical-align: top;
+}
+
+th {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.comment {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 10px;
+  background: #fff;
+}
+
+.site-footer {
+  max-width: 1180px;
+  margin: 14px auto 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  text-align: center;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(18px) scale(1.03);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media (max-width: 960px) {
+  .grid.cols-3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
+  body {
+    padding: 0 12px 28px;
+  }
+
+  .site-header {
+    margin-top: 12px;
+    padding: 14px;
+    border-radius: 16px;
+  }
+
+  .grid.cols-3,
+  .grid.cols-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .panel {
+    border-radius: 14px;
+    padding: 14px;
+  }
+
+  .card h3,
+  .post-title {
+    font-size: 1.35rem;
+  }
+}
