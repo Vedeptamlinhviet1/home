@@ -196,7 +196,7 @@ function renderIntroduction() {
       <h2 class="section-title">Giới thiệu</h2>
       <article class="content-article">
         <h3>Tâm linh Việt - Được Viết Từ Tim</h3>
-        <p>Việt Tâm Blog là một khoảng không gian để khám phá và chia sẻ những điều sâu sắc về tâm linh, tôn giáo và văn hóa Việt Nam.</p>
+        <p>Vẻ đẹp tâm linh Việt là một khoảng không gian để khám phá và chia sẻ những điều sâu sắc về tâm linh, tôn giáo và văn hóa Việt Nam.</p>
         <p><em>Nội dung đang được cập nhật...</em></p>
         <div class="actions">
           <a class="button-link button-primary" href="#library">Khám phá thư viện tôn giáo</a>
@@ -761,6 +761,44 @@ function renderAdmin() {
       </div>
       <p class="meta">Tổng số bình luận hiện tại: ${comments.length}</p>
     </section>
+
+    <section class="panel">
+      <h3 class="section-title">Quản lý bài viết đã duyệt</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Tiêu đề</th>
+              <th>Nhóm</th>
+              <th>Tác giả</th>
+              <th>Ngày duyệt</th>
+              <th>Xử lý</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${
+              approved.length
+                ? approved
+                    .map(
+                      (post) => `
+                        <tr>
+                          <td>${escapeHtml(post.title)}</td>
+                          <td>${escapeHtml(formatCategoryLabel(post.category))}</td>
+                          <td>${escapeHtml(getAuthorName(post))}</td>
+                          <td>${formatDate(post.createdAt)}</td>
+                          <td>
+                            <button class="button-danger" data-action="delete-post" data-post-id="${post.id}">Xóa bài viết</button>
+                          </td>
+                        </tr>
+                      `
+                    )
+                    .join("")
+                : `<tr><td colspan="5">Chưa có bài viết nào đã được duyệt.</td></tr>`
+            }
+          </tbody>
+        </table>
+      </div>
+    </section>
   `;
 }
 
@@ -993,6 +1031,20 @@ function handleAdminAction(event) {
   if (action === "reject-post") {
     const filtered = posts.filter((p) => p.id !== postId);
     savePosts(filtered);
+    renderAdmin();
+    return;
+  }
+
+  if (action === "delete-post") {
+    const accepted = window.confirm("Bạn có chắc chắn muốn xóa bài viết này không?");
+    if (!accepted) return;
+
+    const filteredPosts = posts.filter((p) => p.id !== postId);
+    savePosts(filteredPosts);
+
+    const filteredComments = getComments().filter((c) => c.postId !== postId);
+    saveComments(filteredComments);
+
     renderAdmin();
     return;
   }
