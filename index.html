@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Viet Tam Blog</title>
+    <title>Việt Tâm Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Marcellus&family=Manrope:wght@400;500;700;800&display=swap"
       rel="stylesheet"
     />
     <link
@@ -19,21 +19,23 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
+    <div class="texture"></div>
     <div class="ambient ambient-1"></div>
     <div class="ambient ambient-2"></div>
 
     <header class="site-header">
       <div class="brand-block">
-        <p class="eyebrow">Kham Pha Chieu Sau Tam Linh</p>
-        <h1>Viet Tam Blog</h1>
+        <div class="logo-mark" aria-hidden="true"></div>
+        <p class="eyebrow">Khám Phá Chiều Sâu Tâm Linh</p>
+        <h1>Việt Tâm Blog</h1>
       </div>
       <nav class="main-nav" id="main-nav">
-        <a href="#home" data-route="home">Trang chu</a>
-        <a href="#category/phat-giao" data-route="category/phat-giao">Dau an Phat giao</a>
-        <a href="#category/thien-chua-giao" data-route="category/thien-chua-giao">Thien chua giao</a>
-        <a href="#category/khac" data-route="category/khac">Tin nguong khac</a>
-        <a href="#write" data-route="write">Viet bai</a>
-        <a href="#admin" data-route="admin">Admin</a>
+        <a href="#home" data-route="home">Trang chủ</a>
+        <a href="#category/phat-giao" data-route="category/phat-giao">Dấu ấn Phật giáo</a>
+        <a href="#category/thien-chua-giao" data-route="category/thien-chua-giao">Thiên Chúa giáo</a>
+        <a href="#category/khac" data-route="category/khac">Tín ngưỡng khác</a>
+        <a href="#write" data-route="write">Viết bài</a>
+        <a href="#admin" data-route="admin">Quản trị</a>
       </nav>
       <div class="auth-zone" id="auth-zone"></div>
     </header>
@@ -41,8 +43,8 @@
     <main id="app"></main>
 
     <footer class="site-footer">
-      <p>© 2026 Viet Tam Blog - Do an giao dien thiet ke web.</p>
-      <p>Du lieu luu tai trinh duyet bang localStorage.</p>
+      <p>© 2026 Việt Tâm Blog - Đồ án giao diện thiết kế web.</p>
+      <p>Dữ liệu lưu tại trình duyệt bằng localStorage.</p>
     </footer>
 
     <script
