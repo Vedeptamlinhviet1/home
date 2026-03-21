@@ -169,6 +169,43 @@ function setActiveNav(route) {
   if (target) target.classList.add("active");
 }
 
+function renderLibrary() {
+  appEl.innerHTML = `
+    <section class="hero-banner">
+      <div class="hero-overlay">
+        <h2>Thư viện tôn giáo</h2>
+        <p>Khám phá ba truyền thống tôn giáo chính tại Việt Nam qua những bài viết chuyên sâu.</p>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h3 class="section-title">Chọn danh mục</h3>
+      <p class="lead">Tìm hiểu về các truyền thống tôn giáo và các địa điểm tâm linh tại Việt Nam.</p>
+      <div class="grid cols-3">
+        <article class="card"><div class="card-body"><h3>Dấu ấn Phật giáo</h3><p>Chùa cổ, thiền quán, tư tưởng vô ngã và hành trình nội tâm.</p><a class="button-link button-primary" href="#category/phat-giao">Truy cập</a></div></article>
+        <article class="card"><div class="card-body"><h3>Thiên Chúa giáo</h3><p>Kiến trúc nhà thờ, phục vụ cộng đồng và giá trị nhân ái.</p><a class="button-link button-primary" href="#category/thien-chua-giao">Truy cập</a></div></article>
+        <article class="card"><div class="card-body"><h3>Tín ngưỡng và tôn giáo khác</h3><p>Thờ Mẫu, đình làng, đạo giáo và những góc nhìn liên văn hóa.</p><a class="button-link button-primary" href="#category/khac">Truy cập</a></div></article>
+      </div>
+    </section>
+  `;
+}
+
+function renderIntroduction() {
+  appEl.innerHTML = `
+    <section class="panel">
+      <h2 class="section-title">Giới thiệu</h2>
+      <article class="content-article">
+        <h3>Tâm linh Việt - Được Viết Từ Tim</h3>
+        <p>Việt Tâm Blog là một khoảng không gian để khám phá và chia sẻ những điều sâu sắc về tâm linh, tôn giáo và văn hóa Việt Nam.</p>
+        <p><em>Nội dung đang được cập nhật...</em></p>
+        <div class="actions">
+          <a class="button-link button-primary" href="#library">Khám phá thư viện tôn giáo</a>
+        </div>
+      </article>
+    </section>
+  `;
+}
+
 function renderPostCard(post) {
   return `
     <article class="card">
@@ -224,17 +261,59 @@ function renderHome() {
   const regionHighlights = buildRegionHighlights(posts);
 
   appEl.innerHTML = `
-    <section class="hero-banner">
-      <div class="hero-overlay">
-        <p class="hero-kicker">Hành trình về sự an lạc</p>
-        <h2>Bản đồ Tâm linh Việt</h2>
-        <p>
-          Hành trình tìm về sự an lạc và thấu hiểu chiều sâu văn hóa Việt.
-          Mở ra những cảnh cổ tự và tâm thức dân tộc qua từng bài blog kết nối địa điểm thực.
-        </p>
-        <div class="actions">
-          <a class="button-link button-primary" href="#category/phat-giao">Khám phá bản đồ</a>
+    <section class="carousel-container">
+      <div class="carousel">
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <p class="slide-kicker">Hành trình về sự an lạc</p>
+            <h2>Bản đồ Tâm linh Việt</h2>
+            <p>Hành trình tìm về sự an lạc và thấu hiểu chiều sâu văn hóa Việt qua bản đồ tương tác.</p>
+            <div class="actions">
+              <button class="button-link button-primary" id="open-fullscreen-map">Khám phá bản đồ</button>
+            </div>
+          </div>
         </div>
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <p class="slide-kicker">Dấu ấn Phật giáo</p>
+            <h2>Chùa cổ và thiền quán</h2>
+            <p>Chùa cổ, thiền quán, tư tưởng vô ngã và hành trình nội tâm qua các địa điểm thiêng liêng.</p>
+            <div class="actions">
+              <a class="button-link button-primary" href="#category/phat-giao">Truy cập</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <p class="slide-kicker">Thiên Chúa giáo</p>
+            <h2>Nhà thờ và tâm linh</h2>
+            <p>Kiến trúc nhà thờ, phục vụ cộng đồng và giá trị nhân ái trong tín ngưỡng phương Tây.</p>
+            <div class="actions">
+              <a class="button-link button-primary" href="#category/thien-chua-giao">Truy cập</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="slide-content">
+            <p class="slide-kicker">Tín ngưỡng khác</p>
+            <h2>Đa dạng tôn giáo</h2>
+            <p>Thờ Mẫu, đình làng, đạo giáo và những góc nhìn liên văn hóa từ các tín ngưỡng bản địa.</p>
+            <div class="actions">
+              <a class="button-link button-primary" href="#category/khac">Truy cập</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-controls">
+        <button class="carousel-nav carousel-prev" data-direction="prev">←</button>
+        <div class="carousel-indicators">
+          <button class="indicator active" data-slide="0"></button>
+          <button class="indicator" data-slide="1"></button>
+          <button class="indicator" data-slide="2"></button>
+          <button class="indicator" data-slide="3"></button>
+        </div>
+        <button class="carousel-nav carousel-next" data-direction="next">→</button>
       </div>
     </section>
 
@@ -271,12 +350,17 @@ function renderHome() {
       </div>
     </section>
 
+    <div class="fullscreen-map-modal" id="fullscreen-map-modal">
+      <div class="fullscreen-map-content">
+        <button class="fullscreen-map-close" id="close-fullscreen-map">✕</button>
+        <div id="fullscreen-map"></div>
+      </div>
+    </div>
+
     <section class="panel">
-      <h3 class="section-title">Nhóm bài viết</h3>
-      <div class="grid cols-3">
-        <article class="card"><div class="card-body"><h3>Dấu ấn Phật giáo</h3><p>Chùa cổ, thiền quán, tư tưởng vô ngã và hành trình nội tâm.</p><a class="button-link" href="#category/phat-giao">Truy cập</a></div></article>
-        <article class="card"><div class="card-body"><h3>Thiên Chúa giáo</h3><p>Kiến trúc nhà thờ, phục vụ cộng đồng và giá trị nhân ái.</p><a class="button-link" href="#category/thien-chua-giao">Truy cập</a></div></article>
-        <article class="card"><div class="card-body"><h3>Tín ngưỡng và tôn giáo khác</h3><p>Thờ Mẫu, đình làng, đạo giáo và những góc nhìn liên văn hóa.</p><a class="button-link" href="#category/khac">Truy cập</a></div></article>
+      <h3 class="section-title">Chuỗi bài viết theo danh mục</h3>
+      <div class="grid">
+        <article class="card"><div class="card-body"><h3>Thư viện tôn giáo</h3><p>Khám phá ba truyền thống tôn giáo chính: Phật giáo, Thiên Chúa giáo, và các tín ngưỡng bản địa.</p><a class="button-link button-primary" href="#library">Truy cập</a></div></article>
       </div>
     </section>
 
@@ -288,7 +372,116 @@ function renderHome() {
     </section>
   `;
 
+  setupCarousel(posts);
   initMap(posts);
+}
+
+function setupCarousel(posts) {
+  let currentSlide = 0;
+  const slides = document.querySelectorAll(".carousel-slide");
+  const indicators = document.querySelectorAll(".carousel-indicators .indicator");
+  const carousel = document.querySelector(".carousel");
+
+  function showSlide(n) {
+    currentSlide = (n + slides.length) % slides.length;
+    carousel.style.transform = `translateX(-${currentSlide * 100}%)`;
+    
+    indicators.forEach((ind, idx) => {
+      ind.classList.toggle("active", idx === currentSlide);
+    });
+  }
+
+  function nextSlide() {
+    showSlide(currentSlide + 1);
+  }
+
+  function prevSlide() {
+    showSlide(currentSlide - 1);
+  }
+
+  // Event listeners for navigation
+  document.querySelector(".carousel-next")?.addEventListener("click", nextSlide);
+  document.querySelector(".carousel-prev")?.addEventListener("click", prevSlide);
+
+  // Event listeners for indicators
+  indicators.forEach((indicator) => {
+    indicator.addEventListener("click", (e) => {
+      const slideNum = parseInt(e.target.dataset.slide);
+      showSlide(slideNum);
+    });
+  });
+
+  // Fullscreen map button
+  document.getElementById("open-fullscreen-map")?.addEventListener("click", () => {
+    const modal = document.getElementById("fullscreen-map-modal");
+    if (modal) {
+      modal.classList.add("active");
+      setTimeout(() => initFullscreenMap(posts), 100);
+    }
+  });
+
+  document.getElementById("close-fullscreen-map")?.addEventListener("click", () => {
+    const modal = document.getElementById("fullscreen-map-modal");
+    if (modal) {
+      modal.classList.remove("active");
+      if (window.fullscreenLeafletMap) {
+        window.fullscreenLeafletMap.remove();
+        window.fullscreenLeafletMap = null;
+      }
+    }
+  });
+
+  // Close modal when clicking outside
+  document.getElementById("fullscreen-map-modal")?.addEventListener("click", (e) => {
+    if (e.target.id === "fullscreen-map-modal") {
+      e.target.classList.remove("active");
+      if (window.fullscreenLeafletMap) {
+        window.fullscreenLeafletMap.remove();
+        window.fullscreenLeafletMap = null;
+      }
+    }
+  });
+
+  // Auto-play carousel every 30 seconds
+  let autoplayInterval = setInterval(nextSlide, 30000);
+
+  // Pause autoplay on user interaction
+  const resetAutoplay = () => {
+    clearInterval(autoplayInterval);
+    autoplayInterval = setInterval(nextSlide, 30000);
+  };
+
+  document.querySelector(".carousel-next")?.addEventListener("click", resetAutoplay);
+  document.querySelector(".carousel-prev")?.addEventListener("click", resetAutoplay);
+  indicators.forEach((indicator) => {
+    indicator.addEventListener("click", resetAutoplay);
+  });
+}
+
+function initFullscreenMap(posts) {
+  const mapEl = document.getElementById("fullscreen-map");
+  if (!mapEl || typeof window.L === "undefined") return;
+
+  if (window.fullscreenLeafletMap) {
+    window.fullscreenLeafletMap.remove();
+    window.fullscreenLeafletMap = null;
+  }
+
+  window.fullscreenLeafletMap = window.L.map("fullscreen-map").setView([16.1, 106.2], 5);
+  window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: "&copy; OpenStreetMap"
+  }).addTo(window.fullscreenLeafletMap);
+
+  posts
+    .filter((p) => p.location && Number.isFinite(p.location.lat) && Number.isFinite(p.location.lng))
+    .forEach((post) => {
+      const marker = window.L.marker([post.location.lat, post.location.lng]).addTo(window.fullscreenLeafletMap);
+      marker.bindPopup(`
+        <strong>${escapeHtml(post.location.name || "Địa điểm")}</strong><br />
+        <a href="#post/${post.id}">${escapeHtml(post.title)}</a>
+      `);
+    });
 }
 
 function initMap(posts) {
@@ -584,6 +777,16 @@ function render() {
   if (route === "home") {
     setActiveNav("home");
     renderHome();
+    return;
+  }
+  if (route === "library") {
+    setActiveNav("library");
+    renderLibrary();
+    return;
+  }
+  if (route === "introduction") {
+    setActiveNav("introduction");
+    renderIntroduction();
     return;
   }
   if (route === "category") {
