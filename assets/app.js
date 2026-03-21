@@ -20,8 +20,11 @@ const CATEGORY_LABELS = {
 const appEl = document.getElementById("app");
 const authZoneEl = document.getElementById("auth-zone");
 const navEl = document.getElementById("main-nav");
+const EVENT_CALENDAR_PATH = "./content/event_calendar/events.json";
 
 let leafletMap;
+let eventCalendarCache = null;
+let eventCalendarResizeHandler = null;
 
 function uid(prefix = "id") {
   return `${prefix}-${Math.random().toString(36).slice(2, 8)}-${Date.now()}`;
@@ -106,6 +109,216 @@ function estimateReadTime(content) {
   const words = String(content || "").trim().split(/\s+/).filter(Boolean).length;
   const minutes = Math.max(1, Math.round(words / 220));
   return `${minutes} phút đọc`;
+}
+
+function normalizeEvent(raw, index) {
+  return {
+    id: raw.id || `event-${index + 1}`,
+    name: String(raw.name || "Lễ hội chưa đặt tên"),
+    date: String(raw.date || ""),
+    image: String(raw.image || ""),
+    description: String(raw.description || "")
+  };
+}
+
+function getEventDateValue(value) {
+  const date = new Date(value);
+  return Number.isFinite(date.getTime()) ? date.getTime() : Number.POSITIVE_INFINITY;
+}
+
+async function getEventCalendar() {
+  if (eventCalendarCache) return eventCalendarCache;
+
+  const fallbackEvents = [
+    {
+      id: "event-fallback-1",
+      name: "Lễ hội đang cập nhật",
+      date: new Date().toISOString().slice(0, 10),
+      image: "https://images.unsplash.com/photo-1497561813398-8fcc7a37b567?auto=format&fit=crop&w=900&q=80",
+      description: "Dữ liệu lễ hội đang được cập nhật. Vui lòng thử lại sau."
+    }
+  ];
+
+  try {
+    const response = await fetch(EVENT_CALENDAR_PATH);
+    if (!response.ok) throw new Error("Không thể tải dữ liệu lễ hội.");
+
+    const payload = await response.json();
+    const list = Array.isArray(payload) ? payload : [];
+    const normalized = list
+      .map(normalizeEvent)
+      .sort((a, b) => getEventDateValue(a.date) - getEventDateValue(b.date));
+
+    eventCalendarCache = normalized.length ? normalized : fallbackEvents;
+    return eventCalendarCache;
+  } catch {
+    eventCalendarCache = fallbackEvents;
+    return eventCalendarCache;
+  }
+}
+
+function getRecommendedEventIndex(events) {
+  if (!events.length) return 0;
+
+  const now = new Date();
+  now.setHours(0, 0, 0, 0);
+  const todayValue = now.getTime();
+
+  const futureIdx = events.findIndex((event) => getEventDateValue(event.date) >= todayValue);
+  if (futureIdx >= 0) return futureIdx;
+
+  return 0;
+}
+
+function getEventsPerPage() {
+  if (window.innerWidth <= 700) return 3;
+  if (window.innerWidth <= 1100) return 3;
+  return 4;
+}
+
+function renderEventDetails(event) {
+  const detailsEl = document.getElementById("event-details");
+  if (!detailsEl || !event) return;
+
+  const formattedDate = formatDate(event.date || new Date().toISOString());
+  detailsEl.innerHTML = `
+    <article class="event-detail-card">
+      <img src="${escapeHtml(event.image)}" alt="${escapeHtml(event.name)}" class="event-detail-image" />
+      <div class="event-detail-content">
+        <p class="meta">Ngày lễ hội: ${escapeHtml(formattedDate)}</p>
+        <h3>${escapeHtml(event.name)}</h3>
+        <p>${escapeHtml(event.description)}</p>
+      </div>
+    </article>
+  `;
+}
+
+function setupEventCalendar(events, initialIndex) {
+  const track = document.getElementById("event-circle-track");
+  const prevBtn = document.getElementById("event-prev");
+  const nextBtn = document.getElementById("event-next");
+  if (!track || !events.length) return;
+
+  let eventsPerPage = getEventsPerPage();
+  let selectedIndex = Math.min(Math.max(initialIndex, 0), events.length - 1);
+  let page = Math.floor(selectedIndex / eventsPerPage);
+  let circles = [];
+
+  function chunkEvents() {
+    const chunks = [];
+    for (let i = 0; i < events.length; i += eventsPerPage) {
+      chunks.push(events.slice(i, i + eventsPerPage));
+    }
+    return chunks;
+  }
+
+  function renderPages() {
+    const chunks = chunkEvents();
+    track.innerHTML = chunks
+      .map(
+        (chunk, chunkIndex) => `
+          <div class="event-circle-page" data-page="${chunkIndex}">
+            ${chunk
+              .map((event) => {
+                const globalIndex = events.findIndex((item) => item.id === event.id);
+                return `
+                  <button class="event-circle" data-index="${globalIndex}" title="${escapeHtml(event.name)} - ${escapeHtml(formatDate(event.date))}">
+                    <span class="event-circle-image" style="background-image:url('${escapeHtml(event.image)}')"></span>
+                    <span class="event-circle-name">${escapeHtml(event.name)}</span>
+                    <span class="event-circle-date">${escapeHtml(formatDate(event.date))}</span>
+                  </button>
+                `;
+              })
+              .join("")}
+          </div>
+        `
+      )
+      .join("");
+
+    circles = Array.from(track.querySelectorAll(".event-circle"));
+    circles.forEach((circle) => {
+      circle.addEventListener("click", () => {
+        const idx = Number(circle.dataset.index);
+        setSelected(idx);
+        ensureSelectedVisible();
+      });
+    });
+  }
+
+  function maxPage() {
+    return Math.max(0, Math.ceil(events.length / eventsPerPage) - 1);
+  }
+
+  function updateTrack() {
+    track.style.transform = `translateX(-${page * 100}%)`;
+    prevBtn.disabled = page <= 0;
+    nextBtn.disabled = page >= maxPage();
+  }
+
+  function setSelected(idx) {
+    selectedIndex = idx;
+    circles.forEach((el, index) => {
+      const circleIndex = Number(el.dataset.index);
+      el.classList.toggle("active", circleIndex === selectedIndex);
+    });
+    renderEventDetails(events[selectedIndex]);
+  }
+
+  function ensureSelectedVisible() {
+    page = Math.floor(selectedIndex / eventsPerPage);
+    updateTrack();
+  }
+
+  prevBtn?.addEventListener("click", () => {
+    page = Math.max(0, page - 1);
+    updateTrack();
+  });
+
+  nextBtn?.addEventListener("click", () => {
+    page = Math.min(maxPage(), page + 1);
+    updateTrack();
+  });
+
+  if (eventCalendarResizeHandler) {
+    window.removeEventListener("resize", eventCalendarResizeHandler);
+  }
+
+  eventCalendarResizeHandler = () => {
+    const nextEventsPerPage = getEventsPerPage();
+    if (nextEventsPerPage === eventsPerPage) return;
+
+    eventsPerPage = nextEventsPerPage;
+    renderPages();
+    ensureSelectedVisible();
+    setSelected(selectedIndex);
+  };
+
+  window.addEventListener("resize", eventCalendarResizeHandler);
+
+  renderPages();
+  setSelected(selectedIndex);
+  ensureSelectedVisible();
+}
+
+async function renderEventCalendar() {
+  appEl.innerHTML = `
+    <section class="panel event-calendar-panel">
+      <h2 class="section-title">Lịch lễ hội</h2>
+      <p class="lead">Khám phá các lễ hội theo trình tự ngày tháng. Nhấn vào từng biểu tượng để xem nội dung chi tiết.</p>
+      <div class="event-carousel-shell">
+        <button class="event-nav" id="event-prev" aria-label="Lễ hội trước">←</button>
+        <div class="event-circle-viewport">
+          <div class="event-circle-track" id="event-circle-track"></div>
+        </div>
+        <button class="event-nav" id="event-next" aria-label="Lễ hội sau">→</button>
+      </div>
+      <div id="event-details" class="event-details"></div>
+    </section>
+  `;
+
+  const events = await getEventCalendar();
+  const recommendedIndex = getRecommendedEventIndex(events);
+  setupEventCalendar(events, recommendedIndex);
 }
 
 async function seedData() {
@@ -820,6 +1033,11 @@ function render() {
   if (route === "library") {
     setActiveNav("library");
     renderLibrary();
+    return;
+  }
+  if (route === "events") {
+    setActiveNav("events");
+    renderEventCalendar();
     return;
   }
   if (route === "introduction") {
