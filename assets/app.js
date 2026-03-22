@@ -6,7 +6,7 @@ const STORAGE_KEYS = {
   postsVersion: "viettam_posts_version"
 };
 
-const POSTS_DATA_VERSION = "2026-03-22-buddhist-refresh-1";
+const POSTS_DATA_VERSION = "2026-03-22-catholic-refresh-1";
 
 const CATEGORY_MAP = {
   "phat-giao": "Dau an Phat giao",
@@ -176,6 +176,12 @@ function formatPostContent(raw, options = {}) {
     if (lines.length === 1 && /^\*\*\s*.+\s*\*\*$/.test(lines[0])) {
       const headingText = lines[0].replace(/^\*\*\s*/, "").replace(/\s*\*\*$/, "");
       if (postTitleKey && toComparableText(headingText) === postTitleKey) return "";
+      return `<h3>${escapeHtml(headingText)}</h3>`;
+    }
+
+    // Treat single-line numbered section titles (e.g. "1. Dấu mốc...") as headings.
+    if (lines.length === 1 && /^\d+\.\s+/.test(lines[0])) {
+      const headingText = lines[0].replace(/^\d+\.\s+/, "");
       return `<h3>${escapeHtml(headingText)}</h3>`;
     }
 
@@ -895,6 +901,7 @@ function renderPost(postId) {
   const recommendations = [...approvedPosts].sort(() => Math.random() - 0.5).slice(0, 3);
   const excerptText = String(post.excerpt || "").trim();
   const showExcerpt = excerptText && toComparableText(excerptText) !== toComparableText(post.title);
+  const renderedPostContent = post.formattedContent || formatPostContent(post.content, { postTitle: post.title });
 
   appEl.innerHTML = `
     <article class="panel">
@@ -902,7 +909,7 @@ function renderPost(postId) {
       <h2 class="post-title">${escapeHtml(post.title)}</h2>
       ${showExcerpt ? `<p class="lead">${escapeHtml(excerptText)}</p>` : ""}
       ${post.image ? `<img class="post-hero-image" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" />` : ""}
-      <div class="post-content">${formatPostContent(post.content, { postTitle: post.title })}</div>
+      <div class="post-content">${renderedPostContent}</div>
       ${
         post.location
           ? `<div class="info-box">Địa điểm liên kết: <strong>${escapeHtml(post.location.name || "Đang cập nhật")}</strong></div>`

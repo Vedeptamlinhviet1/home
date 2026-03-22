@@ -238,5 +238,165 @@
       "lng": 104.6314
     },
     "markdownPath": "./content/posts/phật giáo/Yên Bái.md"
+  },
+  {
+    "id": "seed-catholic-01",
+    "title": "Nhà Thờ Cao Xá Tây Ninh: Điểm Tựa Đức Tin Vùng Biên Viễn",
+    "excerpt": "Nằm kiêu hãnh bên trục đường chính dẫn vào thành phố Tây Ninh, **Nhà thờ Cao Xá** là công trình Công giáo tiêu biểu, mang đậm dấu ấn lịch sử di cư và kiến trúc Gothic phương Tây.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-16T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1519817914152-22f90e69f6ed?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Giáo xứ Cao Xá, Tây Ninh",
+      "lat": 11.3140969,
+      "lng": 106.0229239
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Cao Xá Tây Ninh.md"
+  },
+  {
+    "id": "seed-catholic-02",
+    "title": "Nhà Thờ Chính Tòa Thanh Hóa: Nét Kiến Trúc Cổ Kính Xứ Thanh",
+    "excerpt": "Tọa lạc tại trung tâm thành phố, **Nhà thờ Chính tòa Thanh Hóa** là biểu tượng của đức tin và là một trong những công trình kiến trúc phương Tây đẹp nhất tỉnh Thanh Hóa.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-17T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Chính tòa Thanh Hóa",
+      "lat": 19.8138667,
+      "lng": 105.7788469
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Chính Tòa Thanh Hóa.md"
+  },
+  {
+    "id": "seed-catholic-03",
+    "title": "Nhà Thờ Chính Tòa Xã Đoài: Biểu Tượng Công Giáo Xứ Nghệ",
+    "excerpt": "Tọa lạc tại vùng đất Nghi Lộc địa linh nhân kiệt, **Nhà thờ Chính tòa Xã Đoài** là trái tim của Giáo phận Vinh, nơi hội tụ tinh hoa kiến trúc và đức tin của người dân Nghệ An.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-18T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Chính tòa Xã Đoài, Nghệ An",
+      "lat": 18.8237,
+      "lng": 105.6289
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Chính Tòa Xã Đoài.md"
+  },
+  {
+    "id": "seed-catholic-04",
+    "title": "Nhà Thờ Con Gà Đà Nẵng: Biểu Tượng Sắc Hồng Phố Biển",
+    "excerpt": "Nằm rạng rỡ giữa lòng thành phố, **Nhà thờ Chính tòa Đà Nẵng** là sự kết hợp hoàn hảo giữa nét kiến trúc Gothic Pháp và vẻ đẹp duyên dáng, hiện đại của đô thị miền Trung.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-19T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1520637836862-4d197d17c90a?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Chính tòa Đà Nẵng (Nhà thờ Con Gà)",
+      "lat": 16.0666828,
+      "lng": 108.2230584
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Con Gà Đà Nẵng.md"
+  },
+  {
+    "id": "seed-catholic-05",
+    "title": "Nhà Thờ Đá Sapa: Biểu Tượng Kiến Trúc Gothic Pháp Giữa Sương Mù",
+    "excerpt": "Đứng hiên ngang giữa trung tâm thị trấn, **Nhà thờ Đá Sapa** là công trình kiến trúc cổ kính nhất, mang lại vẻ đẹp đậm chất Âu châu cho vùng núi rừng Tây Bắc.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-20T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Đá Sa Pa, Lào Cai",
+      "lat": 22.336017,
+      "lng": 103.843807
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Đá Sapa.md"
+  },
+  {
+    "id": "seed-catholic-06",
+    "title": "Nhà Thờ Đức Bà Sài Gòn: Kiệt Tác Kiến Trúc Giữa Lòng Thành Phố",
+    "excerpt": "Sừng sững giữa trung tâm Quận 1, **Nhà thờ Đức Bà** là minh chứng cho tài hoa kiến trúc của người Pháp và là biểu tượng tinh thần không thể thay thế của người dân Sài Gòn.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-21T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1529429617124-aee7112e5c1c?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Đức Bà Sài Gòn",
+      "lat": 10.7797687,
+      "lng": 106.6990427
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Đức Bà.md"
+  },
+  {
+    "id": "seed-catholic-07",
+    "title": "Nhà Thờ Lớn Hà Nội: Linh Hồn Công Giáo Giữa Lòng Thủ Đô",
+    "excerpt": "Đứng sừng sững giữa khu phố cổ đông đúc, **Nhà thờ Lớn Hà Nội** (Nhà thờ Chính tòa Thánh Giuse) mang vẻ đẹp kiến trúc Gothic Pháp hòa quyện với tâm hồn người Việt, tạo nên một biểu tượng văn hóa vượt thời gian.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-22T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Lớn Hà Nội",
+      "lat": 21.0286483,
+      "lng": 105.8488566
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ lớn Hà Nội.md"
+  },
+  {
+    "id": "seed-catholic-08",
+    "title": "Nhà Thờ Đá Phát Diệm: Tuyệt Tác Kiến Trúc Đông - Tây Kết Hợp",
+    "excerpt": "Nằm giữa vùng đất Kim Sơn, **Nhà thờ Đá Phát Diệm** được mệnh danh là \"Kinh đô Công giáo\" của Việt Nam nhờ sự độc đáo trong kiến trúc đình chùa phương Đông.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-23T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1502209524168-aca66493e5f2?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ chính tòa Phát Diệm, Ninh Bình",
+      "lat": 20.0930035,
+      "lng": 106.0794722
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Phát Diệm.md"
+  },
+  {
+    "id": "seed-catholic-09",
+    "title": "Nhà Thờ Phủ Cam: Kiệt Tác Kiến Trúc Hiện Đại Giữa Lòng Cố Đô",
+    "excerpt": "Đứng uy nghi trên đồi Phước Quả, **Nhà thờ Chính tòa Phủ Cam** là minh chứng cho tài năng của KTS Ngô Viết Thụ và là biểu tượng của kiến trúc Công giáo hiện đại Việt Nam.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-24T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Nhà thờ Phủ Cam, Huế",
+      "lat": 16.4526323,
+      "lng": 107.5877984
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Phủ Cam.md"
+  },
+  {
+    "id": "seed-catholic-10",
+    "title": "Nhà Thờ Sở Kiện: Vương Cung Thánh Đường Cổ Kính Tại Hà Nam",
+    "excerpt": "Tọa lạc tại vùng chiêm trũng Hà Nam, **Vương cung thánh đường Sở Kiện** là một trong những công trình Công giáo quan trọng và đẹp nhất Việt Nam với bề dày lịch sử hơn 100 năm.",
+    "category": "Thien chua giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-25T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Vương cung thánh đường Sở Kiện, Hà Nam",
+      "lat": 20.4999012,
+      "lng": 105.8967339
+    },
+    "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Sở Kiện.md"
   }
 ]
