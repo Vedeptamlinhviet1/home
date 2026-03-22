@@ -1,0 +1,14 @@
+slide ở trang home
+logo - gửi ảnh
+gộp 3 trang dấu ấn phật giáo, thiên chúa giáo, tín ngưỡng khác vào một trang là thư viện tôn giáo, thêm một trang lịch lễ hội
+vào trang thư viện tôn giáo sẽ có các điều hướng đến 3 trang phật giáo, thiên chúa giáo, tín ngưỡng khác
+thêm trang giới thiệu
+*lịch
+
+chỉnh lại font
+
+
+-background
+hình ảnh + bài viết => .md
+ảnh logo
+.gif

@@ -1,50 +1,242 @@
 [
   {
-    "id": "seed-1",
-    "title": "Triet Ly Vo Thuong Trong Phat Giao Viet",
-    "excerpt": "Goc nhin ve tinh vo thuong qua kien truc chua co va doi song tinh than nguoi Viet.",
-    "content": "Vo thuong la dong chay tu nhien cua su song. Trong van hoa Viet, tinh than ay the hien qua le nghi, kien truc chua co va cach ung xu huong den su tinh lang noi tam.",
+    "id": "seed-buddhist-01",
+    "title": "Chùa Am Tiên Thanh Hóa: Huyệt Đạo Linh Thiêng Trên Đỉnh Núi Nưa",
+    "excerpt": "Chùa Am Tiên Thanh Hóa: Huyệt Đạo Linh Thiêng Trên Đỉnh Núi Nưa",
     "category": "Dau an Phat giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-01T08:00:00.000Z",
     "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80",
-    "location": { "name": "Chua Mot Cot, Ha Noi", "lat": 21.0368, "lng": 105.8335 }
+    "location": {
+      "name": "Chùa Am Tiên, Thanh Hóa",
+      "lat": 19.8576,
+      "lng": 105.5124
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Am Tiên Thanh Hóa.md"
   },
   {
-    "id": "seed-2",
-    "title": "Dau An Gothic Trong Khong Gian Viet",
-    "excerpt": "Kham pha net dep kien truc thien chua giao trong boi canh van hoa Viet Nam.",
-    "content": "Tu duong net vom cao vuot den anh sang mau qua cua kinh, nha tho Gothic o Viet Nam tao nen mot doi thoai thu vi giua nghe thuat phuong Tay va tam hon phuong Dong.",
-    "category": "Thien chua giao",
-    "status": "approved",
-    "authorName": "Ban Bien Tap",
-    "createdAt": "2026-03-04T07:30:00.000Z",
-    "image": "https://images.unsplash.com/photo-1548625149-fc4a29cf7092?auto=format&fit=crop&w=1200&q=80",
-    "location": { "name": "Nha tho Duc Ba, TP.HCM", "lat": 10.7798, "lng": 106.6990 }
-  },
-  {
-    "id": "seed-3",
-    "title": "Huyen Tich Va Nghi Le Tho Mau Tam Phu",
-    "excerpt": "Ve dep cua tin nguong dan gian qua nghi le, am nhac va trang phuc hau dong.",
-    "content": "Tho Mau Tam Phu la su ket tinh cua tri tue dan gian, tam linh ban dia va su ton vinh nguoi me. Moi nghi le deu mang thong diep ve long biet on va su bao dung.",
-    "category": "Tin nguong va ton giao khac",
-    "status": "approved",
-    "authorName": "Ban Bien Tap",
-    "createdAt": "2026-03-09T10:15:00.000Z",
-    "image": "https://images.unsplash.com/photo-1519491050282-cf00c82424b4?auto=format&fit=crop&w=1200&q=80",
-    "location": { "name": "Phu Day, Nam Dinh", "lat": 20.3019, "lng": 106.1750 }
-  },
-  {
-    "id": "seed-4",
-    "title": "Thien Nhien Trong Thien Quan Niem Son Mon",
-    "excerpt": "Khong gian vuon thien va nhung bai hoc ve su can bang noi tam.",
-    "content": "Nguoi tu hanh thuong xem thien nhien la mot phap duong lon. Moi khu vuon, con duong da va tieng chuong deu goi mo su quan sat va hien dien.",
+    "id": "seed-buddhist-02",
+    "title": "Chùa Bà Đen Tây Ninh: Huyền Thoại Linh Thiêng Trên Đỉnh Núi Cao",
+    "excerpt": "Chùa Bà Đen Tây Ninh: Huyền Thoại Linh Thiêng Trên Đỉnh Núi Cao",
     "category": "Dau an Phat giao",
-    "status": "pending",
-    "authorName": "Thanh vien demo",
-    "createdAt": "2026-03-12T12:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
-    "location": { "name": "Thien vien Truc Lam, Da Lat", "lat": 11.9264, "lng": 108.4500 }
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-02T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Bà Đen, Tây Ninh",
+      "lat": 11.3676,
+      "lng": 106.1637
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Bà Đen Tây Ninh.md"
+  },
+  {
+    "id": "seed-buddhist-03",
+    "title": "Chùa Đại Tuệ Nghệ An: Điểm Tựa Tâm Linh Trên Đỉnh Núi Chung Sơn",
+    "excerpt": "Chùa Đại Tuệ Nghệ An: Điểm Tựa Tâm Linh Trên Đỉnh Núi Chung Sơn",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-03T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Đại Tuệ, Nghệ An",
+      "lat": 18.7813,
+      "lng": 105.6618
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Đại Tuệ Nghệ An.md"
+  },
+  {
+    "id": "seed-buddhist-04",
+    "title": "Chùa Linh Quang: \"Đóa Sen\" Phật Giáo Đầu Tiên Giữa Đại Ngàn Điện Biên",
+    "excerpt": "Chùa Linh Quang: \"Đóa Sen\" Phật Giáo Đầu Tiên Giữa Đại Ngàn Điện Biên",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-04T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1519491050282-cf00c82424b4?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Linh Quang, Điện Biên",
+      "lat": 21.386,
+      "lng": 103.023
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Linh Quang.md"
+  },
+  {
+    "id": "seed-buddhist-05",
+    "title": "Chùa Linh Sơn Lai Châu: Điểm Tựa Tâm Linh Giữa Đại Ngàn",
+    "excerpt": "Nằm hiên ngang giữa mây trời Tam Đường, Chùa Linh Sơn là ngôi chùa quan trọng bậc nhất của tỉnh Lai Châu, nơi gửi gắm niềm tin và khát vọng bình an của nhân dân vùng biên cương.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-05T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1459679749680-18eb9de45d44?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Linh Sơn, Lai Châu",
+      "lat": 22.3792,
+      "lng": 103.4453
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Linh Sơn Lai Châu.md"
+  },
+  {
+    "id": "seed-buddhist-06",
+    "title": "Chùa Linh Ứng Sơn Trà: Tượng Phật Bà Nhìn Ra Biển Đông",
+    "excerpt": "Nằm tại \"hòn ngọc\" của Đà Nẵng, Chùa Linh Ứng Sơn Trà là một kiệt tác kiến trúc Phật giáo, nơi con người tìm thấy sự bình yên giữa mây ngàn và sóng biển.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-06T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Linh Ứng Sơn Trà, Đà Nẵng",
+      "lat": 16.1006,
+      "lng": 108.2772
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Linh Ứng Sơn Trà.md"
+  },
+  {
+    "id": "seed-buddhist-07",
+    "title": "Chùa Một Cột: Biểu Tượng Kiến Trúc Độc Bản Của Thủ Đô",
+    "excerpt": "Nằm giữa quần thể di tích quận Ba Đình, Chùa Một Cột (hay còn gọi là Liên Hoa Đài) là ngôi chùa có kiến trúc sáng tạo nhất trong lịch sử Phật giáo Việt Nam.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-07T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Một Cột, Hà Nội",
+      "lat": 21.0358,
+      "lng": 105.8336
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Một Cột.md"
+  },
+  {
+    "id": "seed-buddhist-08",
+    "title": "Chùa Ông Cần Thơ: Sắc Màu Rực Rỡ Của Tín Ngưỡng Người Hoa",
+    "excerpt": "Nằm soi bóng bên dòng sông Hậu, Chùa Ông là một viên ngọc kiến trúc rực rỡ, nơi lưu giữ những nét đẹp văn hóa truyền thống của người Hoa tại Cần Thơ.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-08T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1508675801627-066ac4346a55?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Ông, Cần Thơ",
+      "lat": 10.0359,
+      "lng": 105.7871
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Ông Cần Thơ.md"
+  },
+  {
+    "id": "seed-buddhist-09",
+    "title": "Chùa Tam Chúc Hà Nam: Ngôi Chùa Lớn Nhất Thế Giới",
+    "excerpt": "Tọa lạc tại vùng đất sơn thủy hữu tình, Chùa Tam Chúc là sự kết hợp hoàn hảo giữa vẻ đẹp kỳ vĩ của thiên nhiên và bàn tay tài hoa của con người.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-09T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Tam Chúc, Hà Nam",
+      "lat": 20.5566,
+      "lng": 105.9191
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Tam Chúc Hà Nam.md"
+  },
+  {
+    "id": "seed-buddhist-10",
+    "title": "Chùa Thiên Mụ: Linh Hồn Của Cố Đô Huế",
+    "excerpt": "Nằm uy nghi bên dòng sông Hương xanh biếc, Chùa Thiên Mụ là ngôi chùa cổ kính bậc nhất Việt Nam, nơi hội tụ tinh hoa kiến trúc và lịch sử của triều đại nhà Nguyễn.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-10T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Thiên Mụ, Huế",
+      "lat": 16.4523,
+      "lng": 107.5451
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Thiên Mụ Huế.md"
+  },
+  {
+    "id": "seed-buddhist-11",
+    "title": "Chùa Thượng Lào Cai: Điểm Tựa Tâm Linh Nơi Địa Đầu Tổ Quốc",
+    "excerpt": "Nằm uy nghi trên đỉnh núi Mai Lĩnh, thuộc phường Lào Cai, thành phố Lào Cai, Chùa Thượng không chỉ là một di tích lịch sử văn hóa cấp Quốc gia mà còn là biểu tượng cho sự giao thoa giữa lòng yêu nước và tinh thần Phật giáo tại vùng biên cươ",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-11T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Thượng, Lào Cai",
+      "lat": 22.4869,
+      "lng": 103.9754
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Thượng Lào Cai.md"
+  },
+  {
+    "id": "seed-buddhist-12",
+    "title": "Chùa Tiên Hòa Bình: Hành Trình Khám Phá \"Cõi Phật Tựa Tiên Cảnh\" Tại Lạc Thủy",
+    "excerpt": "Chùa Tiên Hòa Bình: Hành Trình Khám Phá \"Cõi Phật Tựa Tiên Cảnh\" Tại Lạc Thủy",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-12T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Tiên, Hòa Bình",
+      "lat": 20.4988,
+      "lng": 105.727
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Tiên Hòa Bình.md"
+  },
+  {
+    "id": "seed-buddhist-13",
+    "title": "Chùa Trúc Lâm Hưng Quốc Sơn La: Đóa Sen Nở Giữa Núi Rừng Tây Bắc",
+    "excerpt": "Chùa Trúc Lâm Hưng Quốc Sơn La: Đóa Sen Nở Giữa Núi Rừng Tây Bắc",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-13T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1482192597420-4817fdd2e8b1?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Trúc Lâm Hưng Quốc, Sơn La",
+      "lat": 21.3256,
+      "lng": 103.9146
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Trúc Lâm Hưng Quốc Sơn La.md"
+  },
+  {
+    "id": "seed-buddhist-14",
+    "title": "Chùa Vĩnh Nghiêm: Biểu Tượng Phật Giáo Hiện Đại Của Sài Gòn",
+    "excerpt": "Giữa nhịp sống hối hả của TP. Hồ Chí Minh, Chùa Vĩnh Nghiêm hiện lên như một ốc đảo bình yên, nơi hội tụ tinh hoa kiến trúc và tinh thần Phật giáo Trúc Lâm.",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-14T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1526483360412-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Chùa Vĩnh Nghiêm, TP.HCM",
+      "lat": 10.7871,
+      "lng": 106.6776
+    },
+    "markdownPath": "./content/posts/phật giáo/Chùa Vĩnh Nghiêm Sài Gòn.md"
+  },
+  {
+    "id": "seed-buddhist-15",
+    "title": "Yên Bái: Di Tích Hầm Chùa Hắc Y – Bí Ẩn Tâm Linh Giữa Vòng Cung Đá Quý",
+    "excerpt": "Yên Bái: Di Tích Hầm Chùa Hắc Y – Bí Ẩn Tâm Linh Giữa Vòng Cung Đá Quý",
+    "category": "Dau an Phat giao",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-15T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "location": {
+      "name": "Di tích Hầm chùa Hắc Y, Yên Bái",
+      "lat": 22.1025,
+      "lng": 104.6314
+    },
+    "markdownPath": "./content/posts/phật giáo/Yên Bái.md"
   }
 ]

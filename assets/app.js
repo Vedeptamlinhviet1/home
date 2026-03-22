@@ -1,9 +1,12 @@
 const STORAGE_KEYS = {
   users: "viettam_users",
-  posts: "viettam_posts",
+  localPosts: "viettam_local_posts",
   comments: "viettam_comments",
-  session: "viettam_session"
+  session: "viettam_session",
+  postsVersion: "viettam_posts_version"
 };
+
+const POSTS_DATA_VERSION = "2026-03-22-buddhist-refresh-1";
 
 const CATEGORY_MAP = {
   "phat-giao": "Dau an Phat giao",
@@ -25,6 +28,7 @@ const EVENT_CALENDAR_PATH = "./content/event_calendar/events.json";
 let leafletMap;
 let eventCalendarCache = null;
 let eventCalendarResizeHandler = null;
+let curatedPosts = [];
 
 function uid(prefix = "id") {
   return `${prefix}-${Math.random().toString(36).slice(2, 8)}-${Date.now()}`;
@@ -55,12 +59,17 @@ function saveUsers(users) {
   localStorage.setItem(STORAGE_KEYS.users, JSON.stringify(users));
 }
 
-function getPosts() {
-  return parseJSON(localStorage.getItem(STORAGE_KEYS.posts), []);
+function getLocalPosts() {
+  return parseJSON(localStorage.getItem(STORAGE_KEYS.localPosts), []);
 }
 
 function savePosts(posts) {
-  localStorage.setItem(STORAGE_KEYS.posts, JSON.stringify(posts));
+  const localOnly = (posts || []).filter((p) => p?.sourceType !== "curated");
+  localStorage.setItem(STORAGE_KEYS.localPosts, JSON.stringify(localOnly));
+}
+
+function getPosts() {
+  return [...curatedPosts, ...getLocalPosts()];
 }
 
 function getComments() {
@@ -109,6 +118,135 @@ function estimateReadTime(content) {
   const words = String(content || "").trim().split(/\s+/).filter(Boolean).length;
   const minutes = Math.max(1, Math.round(words / 220));
   return `${minutes} phút đọc`;
+}
+
+function normalizeMarkdownSource(raw) {
+  return String(raw || "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\\([#*`_>\-\[\]()\.])/g, "$1")
+    .trim();
+}
+
+function markdownToPlainText(raw) {
+  return normalizeMarkdownSource(raw)
+    .replace(/^#{1,6}\s*/gm, "")
+    .replace(/^\*\s+/gm, "")
+    .replace(/^\d+\.\s+/gm, "")
+    .replace(/^>\s?/gm, "")
+    .replace(/\*\*/g, "")
+    .replace(/`/g, "")
+    .replace(/\n{2,}/g, "\n")
+    .trim();
+}
+
+function toComparableText(input) {
+  return String(input || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function formatPostContent(raw, options = {}) {
+  const normalized = normalizeMarkdownSource(raw);
+  if (!normalized) return "<p>Đang cập nhật nội dung.</p>";
+
+  const renderInline = (text) =>
+    escapeHtml(text).replace(/\*\*\s*(.+?)\s*\*\*/g, "<strong>$1</strong>");
+  const postTitleKey = toComparableText(options.postTitle);
+
+  const blocks = normalized
+    .split(/\n{2,}/)
+    .map((b) => b.trim())
+    .filter(Boolean);
+
+  const htmlBlocks = blocks.map((block) => {
+    const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
+    if (!lines.length) return "";
+
+    if (lines.length === 1 && /^#{1,3}\s+/.test(lines[0])) {
+      const level = Math.min(4, lines[0].match(/^#+/)[0].length + 1);
+      const text = lines[0].replace(/^#{1,3}\s+/, "");
+      if (postTitleKey && toComparableText(text) === postTitleKey) return "";
+      return `<h${level}>${escapeHtml(text)}</h${level}>`;
+    }
+
+    // Support title-like lines written as **Heading** after markdown cleanup.
+    if (lines.length === 1 && /^\*\*\s*.+\s*\*\*$/.test(lines[0])) {
+      const headingText = lines[0].replace(/^\*\*\s*/, "").replace(/\s*\*\*$/, "");
+      if (postTitleKey && toComparableText(headingText) === postTitleKey) return "";
+      return `<h3>${escapeHtml(headingText)}</h3>`;
+    }
+
+    if (lines.length === 1 && postTitleKey && toComparableText(lines[0]) === postTitleKey) {
+      return "";
+    }
+
+    if (lines.every((line) => /^\*\s+/.test(line))) {
+      const items = lines.map((line) => `<li>${renderInline(line.replace(/^\*\s+/, ""))}</li>`).join("");
+      return `<ul>${items}</ul>`;
+    }
+
+    if (lines.every((line) => /^\d+\.\s+/.test(line))) {
+      const items = lines.map((line) => `<li>${renderInline(line.replace(/^\d+\.\s+/, ""))}</li>`).join("");
+      return `<ol>${items}</ol>`;
+    }
+
+    if (lines.every((line) => /^>\s?/.test(line))) {
+      const text = lines.map((line) => renderInline(line.replace(/^>\s?/, ""))).join("<br />");
+      return `<blockquote>${text}</blockquote>`;
+    }
+
+    const paragraph = lines.map((line) => renderInline(line)).join("<br />");
+    return `<p>${paragraph}</p>`;
+  });
+
+  return htmlBlocks.filter(Boolean).join("\n");
+}
+
+async function loadCuratedPostsFromFiles() {
+  try {
+    const res = await fetch("./data/demo-posts.json");
+    if (!res.ok) throw new Error("Không tải được metadata bài viết.");
+
+    const metaPosts = await res.json();
+    const normalizedMeta = Array.isArray(metaPosts) ? metaPosts : [];
+
+    const loaded = await Promise.all(
+      normalizedMeta.map(async (postMeta, index) => {
+        let markdownRaw = "";
+        if (postMeta.markdownPath) {
+          try {
+            const markdownRes = await fetch(encodeURI(postMeta.markdownPath));
+            if (markdownRes.ok) markdownRaw = await markdownRes.text();
+          } catch {
+            markdownRaw = "";
+          }
+        }
+
+        const plainText = markdownToPlainText(markdownRaw || postMeta.content || postMeta.excerpt || "");
+        const excerpt = String(postMeta.excerpt || plainText.slice(0, 220) || "").trim();
+
+        return {
+          ...postMeta,
+          id: postMeta.id || uid("seed"),
+          content: plainText,
+          excerpt,
+          formattedContent: formatPostContent(markdownRaw || postMeta.content || postMeta.excerpt || "", {
+            postTitle: postMeta.title
+          }),
+          sourceType: "curated",
+          status: postMeta.status || "approved",
+          createdAt: postMeta.createdAt || new Date(Date.now() + index * 1000).toISOString()
+        };
+      })
+    );
+
+    curatedPosts = loaded;
+  } catch {
+    curatedPosts = [];
+  }
 }
 
 function normalizeEvent(raw, index) {
@@ -344,21 +482,18 @@ async function seedData() {
     saveSession({ currentUserId: null });
   }
 
-  let posts = getPosts();
-  if (!posts.length) {
-    try {
-      const res = await fetch("./data/demo-posts.json");
-      const demo = await res.json();
-      posts = demo.map((post) => ({
-        ...post,
-        id: post.id || uid("post")
-      }));
-      savePosts(posts);
-    } catch {
-      posts = [];
-      savePosts(posts);
-    }
+  const storedPostsVersion = localStorage.getItem(STORAGE_KEYS.postsVersion);
+  if (storedPostsVersion !== POSTS_DATA_VERSION) {
+    // Reset old cached full posts to avoid localStorage overflow.
+    localStorage.removeItem("viettam_posts");
+    localStorage.setItem(STORAGE_KEYS.postsVersion, POSTS_DATA_VERSION);
   }
+
+  if (!localStorage.getItem(STORAGE_KEYS.localPosts)) {
+    localStorage.setItem(STORAGE_KEYS.localPosts, JSON.stringify([]));
+  }
+
+  await loadCuratedPostsFromFiles();
 }
 
 function updateAuthUI() {
@@ -758,14 +893,16 @@ function renderPost(postId) {
   const currentUser = getCurrentUser();
   const approvedPosts = getPosts().filter((p) => p.status === "approved" && p.id !== post.id);
   const recommendations = [...approvedPosts].sort(() => Math.random() - 0.5).slice(0, 3);
+  const excerptText = String(post.excerpt || "").trim();
+  const showExcerpt = excerptText && toComparableText(excerptText) !== toComparableText(post.title);
 
   appEl.innerHTML = `
     <article class="panel">
       <p class="meta">${escapeHtml(formatCategoryLabel(post.category))} · ${formatDate(post.createdAt)} · ${escapeHtml(getAuthorName(post))}</p>
       <h2 class="post-title">${escapeHtml(post.title)}</h2>
-      <p class="lead">${escapeHtml(post.excerpt || "")}</p>
+      ${showExcerpt ? `<p class="lead">${escapeHtml(excerptText)}</p>` : ""}
       ${post.image ? `<img class="post-hero-image" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" />` : ""}
-      <p>${escapeHtml(post.content)}</p>
+      <div class="post-content">${formatPostContent(post.content, { postTitle: post.title })}</div>
       ${
         post.location
           ? `<div class="info-box">Địa điểm liên kết: <strong>${escapeHtml(post.location.name || "Đang cập nhật")}</strong></div>`
@@ -1173,8 +1310,10 @@ function handleWriteSubmit(event) {
     title,
     excerpt,
     content,
+    formattedContent: formatPostContent(content),
     category: "Tin nguong va ton giao khac",
     status: "pending",
+    sourceType: "local",
     createdAt: new Date().toISOString(),
     authorId: currentUser.id,
     image: image || "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
@@ -1230,6 +1369,11 @@ function handleAdminAction(event) {
   const posts = getPosts();
   const post = posts.find((p) => p.id === postId);
   if (!post) return;
+
+  if (post.sourceType === "curated" && action !== "logout") {
+    alert("Bài viết hệ thống không chỉnh sửa trong localStorage. Hãy sửa trực tiếp file nguồn nội dung.");
+    return;
+  }
 
   if (action === "approve-post") {
     const selector = document.querySelector(`select[data-post-id="${postId}"]`);
