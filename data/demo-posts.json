@@ -398,5 +398,130 @@
       "lng": 105.8967339
     },
     "markdownPath": "./content/posts/thiên chúa giáo/Nhà thờ Sở Kiện.md"
+  },
+  {
+    "id": "seed-khac-01",
+    "title": "Đạo Cao Đài: Biểu Tượng Thiên Nhãn Và Khát Vọng Hòa Bình Thế Giới",
+    "excerpt": "Đạo Cao Đài, hay Đại Đạo Tam Kỳ Phổ Độ, là một tôn giáo đặc biệt ra đời tại Việt Nam vào đầu thế kỷ XX. Với trung tâm hành hương là **Tòa Thánh Tây Ninh**, tôn giáo này không chỉ gây ấn tượng bởi sự lộng lẫy về kiến trúc mà còn bởi triết...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-26T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Đạo Cao Đài.md",
+    "location": {
+      "name": "Tòa Thánh Tây Ninh",
+      "lat": 11.2873119,
+      "lng": 106.1346803
+    }
+  },
+  {
+    "id": "seed-khac-02",
+    "title": "Đạo Hòa Hảo: Triết Lý \"Tu Nhân Học Phật\" Giữa Lòng Sông Nước Nam Bộ",
+    "excerpt": "Ra đời tại làng Hòa Hảo (An Giang) vào năm 1939, Phật giáo Hòa Hảo là một tôn giáo nội sinh mang đậm cốt cách của người dân Nam Bộ: bộc trực, giản dị nhưng vô cùng sâu sắc. Với tôn chỉ \"Học Phật Tu Nhân\", đạo Hòa Hảo đã tạo nên một nếp s...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-27T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Giáo Phái Hòa Hảo.md",
+    "location": {
+      "name": "An Hòa Tự, Phú Tân, An Giang",
+      "lat": 10.5771146,
+      "lng": 105.3547998
+    }
+  },
+  {
+    "id": "seed-khac-03",
+    "title": "Hồi Giáo (Islam) Của Người Chăm: Nét Văn Hóa Trung Đông Giữa Lòng Việt Nam",
+    "excerpt": "Trên dải đất hình chữ S, cộng đồng người Chăm tại Ninh Thuận và An Giang đã tạo nên một dấu ấn tâm linh đặc sắc qua niềm tin vào Allah. Với những ngôi thánh đường mái vòm trắng muốt vươn cao, Hồi giáo không chỉ là tôn giáo mà còn là linh...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-28T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Hồi Giáo.md",
+    "location": {
+      "name": "Khu Châu Giang, An Giang",
+      "lat": 10.6902255,
+      "lng": 105.0994331
+    }
+  },
+  {
+    "id": "seed-khac-04",
+    "title": "Tín ngưỡng Thờ Mẫu Tam Phủ: Nơi Con Người và Thần Linh Giao Thoa",
+    "excerpt": "Trong kho tàng di sản của nhân loại, **Tín ngưỡng Thờ Mẫu Tam phủ** của người Việt hiện lên như một bức tranh rực rỡ sắc màu, nơi niềm tin tâm linh hòa quyện chặt chẽ với nghệ thuật trình diễn. Được UNESCO ghi danh là Di sản văn hóa phi...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-29T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Thờ Mẫu Tam Phủ.md"
+  },
+  {
+    "id": "seed-khac-05",
+    "title": "Tín Ngưỡng Tây Nguyên: Lời Thì Thầm Của Đại Ngàn Vạn Vật Hữu Linh",
+    "excerpt": "Giữa không gian hùng vĩ của núi rừng Trường Sơn - Tây Nguyên, các dân tộc như Ê-đê, Gia-rai, Ba-na, M'nông... từ bao đời nay đã viết nên bản trường ca về sự cộng sinh giữa con người và thiên nhiên. Với niềm tin **\"Vạn vật hữu linh\"**, mỗ...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-30T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng Tây Nguyên.md"
+  },
+  {
+    "id": "seed-khac-06",
+    "title": "Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương",
+    "excerpt": "Đối với ngư dân dọc dải đất hình chữ S, biển cả không chỉ là nguồn sống mà còn là nơi ngự trị của những sức mạnh siêu nhiên đầy lòng trắc ẩn. Trong đó, **Tín ngưỡng thờ Cá Ông** (cá voi) hiện lên như một biểu tượng đẹp đẽ nhất về mối nhâ...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-03-31T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cá Ông.md"
+  },
+  {
+    "id": "seed-khac-07",
+    "title": "Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết \"Đồng Bào\" Từ Đền Hùng",
+    "excerpt": "Trong tâm thức của mỗi người Việt, dù ở bất cứ nơi đâu, hai chữ \"Nguồn cội\" luôn mang một sức mạnh thiêng liêng khó tả. **Tín ngưỡng Thờ cúng Hùng Vương** – Di sản văn hóa phi vật thể đại diện của nhân loại chính là biểu tượng cao đẹp nh...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-04-01T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1508599589920-14cfa1c1fe4d?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cúng Hùng Vương.md"
+  },
+  {
+    "id": "seed-khac-08",
+    "title": "Tín Ngưỡng Thờ Cúng Tổ Tiên: Đạo Hiếu Và Sợi Dây Gắn Kết Tâm Linh Người Việt",
+    "excerpt": "Trong tâm khảm mỗi người Việt, dù đi đâu về đâu, hình ảnh bàn thờ gia tiên với khói hương nghi ngút luôn là biểu tượng ấm áp nhất của gia đình. **Tín ngưỡng thờ cúng Tổ tiên** không chỉ là một nghi thức tôn giáo, mà còn là nhịp cầu tâm l...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-04-02T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cúng Tổ Tiên.md"
+  },
+  {
+    "id": "seed-khac-09",
+    "title": "Tín Ngưỡng Thờ Thành Hoàng Làng: Vị \"Hộ Pháp\" Canh Giữ Lũy Tre Xanh",
+    "excerpt": "Trong tâm thức người Việt, nếu gia đình có Tổ tiên, thì làng xóm có **Thành Hoàng**. Đây là vị thần tối cao cai quản, che chở cho dân làng, là \"linh hồn\" ẩn sau những lũy tre xanh và là chứng nhân cho dòng chảy lịch sử của mỗi vùng đất.",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-04-03T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng THờ Thành Hoàng.md"
+  },
+  {
+    "id": "seed-khac-10",
+    "title": "Tín Ngưỡng Thờ Thần Tài - Thổ Địa: Tâm Linh Trong Nhịp Sống Kinh Doanh Hiện Đại",
+    "excerpt": "Nếu có một hình ảnh quen thuộc nhất tại các cửa hàng, văn phòng hay quán ăn từ thành thị đến nông thôn Việt Nam, đó chính là chiếc bàn thờ nhỏ đặt sát mặt đất, nơi ngự trị của **Thần Tài và Thổ Địa**. Đây là biểu tượng của sự kết hợp hài...",
+    "category": "Tin nguong va ton giao khac",
+    "status": "approved",
+    "authorName": "Ban Bien Tap",
+    "createdAt": "2026-04-04T08:00:00.000Z",
+    "image": "https://images.unsplash.com/photo-1534531173927-aeb928d54385?auto=format&fit=crop&w=1200&q=80",
+    "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Thần Tài.md"
   }
 ]

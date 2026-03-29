@@ -6,7 +6,7 @@ const STORAGE_KEYS = {
   postsVersion: "viettam_posts_version"
 };
 
-const POSTS_DATA_VERSION = "2026-03-22-catholic-refresh-1";
+const POSTS_DATA_VERSION = "2026-03-29-khac-refresh-1";
 
 const CATEGORY_MAP = {
   "phat-giao": "Dau an Phat giao",

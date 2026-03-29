@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --bg: #ebe9df;
   --paper: #fcfbf7;
   --paper-2: #f5f1e8;
@@ -11,6 +11,8 @@
   --radius-lg: 26px;
   --radius-md: 16px;
   --shadow-soft: 0 10px 24px rgba(16, 24, 19, 0.08);
+  --font-base: "Be Vietnam Pro", "Segoe UI", Roboto, sans-serif;
+  --font-display: "Noto Serif", "Times New Roman", serif;
 }
 
 * {
@@ -25,7 +27,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--text);
-  font-family: "Manrope", sans-serif;
+  font-family: var(--font-base);
   line-height: 1.55;
   background: linear-gradient(180deg, #eef0e8 0%, #e4e7dc 100%);
   padding: 0 18px 36px;
@@ -93,7 +95,7 @@ body {
 
 .brand-block h1 {
   margin: 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(1.45rem, 2.2vw, 2rem);
   font-weight: 400;
 }
@@ -230,7 +232,7 @@ main {
 
 .hero-overlay h2 {
   margin: 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 4rem);
   line-height: 1.04;
 }
@@ -252,7 +254,7 @@ main {
 
 .section-title {
   margin: 4px 0 16px;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(1.7rem, 3vw, 2.5rem);
   line-height: 1.08;
 }
@@ -408,7 +410,7 @@ main {
 .card h3,
 .post-title {
   margin: 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(1.25rem, 2vw, 1.7rem);
   line-height: 1.2;
 }
@@ -510,7 +512,7 @@ label {
 .post-content h3,
 .post-content h4 {
   margin: 8px 0 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
 }
 
 .post-content p {
@@ -656,7 +658,7 @@ th {
 
 .slide-content h2 {
   margin: 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(2rem, 5vw, 4rem);
   line-height: 1.04;
 }
@@ -898,7 +900,7 @@ th {
 
 .event-detail-content h3 {
   margin: 0;
-  font-family: "Marcellus", serif;
+  font-family: var(--font-display);
   font-size: clamp(1.4rem, 2.5vw, 2rem);
 }
 
@@ -1055,3 +1057,4 @@ th {
     height: 110px;
   }
 }
+
