@@ -40,4 +40,4 @@ Hai chữ **"Đồng bào"** (cùng chung bọc trứng) bắt nguồn từ truy
 ## Lời Kết
 Tín ngưỡng Thờ cúng Hùng Vương không chỉ là một nghi thức tâm linh, mà còn là một **"triết lý sống"** của người Việt. Đó là điểm tựa tinh thần vững chãi, là niềm tin sắt son về sức mạnh của sự đoàn kết, giúp dân tộc Việt Nam mãi mãi trường tồn.
 
-*Nguồn: Tư liệu Văn hóa và Du lịch Việt Nam.*
+**Nguồn: Tư liệu Văn hóa và Du lịch Việt Nam.**

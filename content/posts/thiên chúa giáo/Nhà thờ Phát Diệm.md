@@ -26,6 +26,5 @@ Dưới sự chỉ đạo của Cha Sáu, ngôi thánh đường được hoàn 
 
 ![Nhà thờ Phát Diệm - Hình 3](./content/images/2. Thiên Chúa Giáo/4. Nhà Thờ Đá Phát Diệm/img-03.webp)
 
-*Nhà thờ Phát Diệm - Nơi linh hồn Việt hòa quyện cùng đức tin Công giáo.*
-
+**Nhà thờ Phát Diệm - Nơi linh hồn Việt hòa quyện cùng đức tin Công giáo.**
 ![Nhà thờ Phát Diệm - Hình 4](./content/images/2. Thiên Chúa Giáo/4. Nhà Thờ Đá Phát Diệm/img-04.jpg)

@@ -38,4 +38,4 @@ Hồi giáo mang đến cho người Chăm một lối sống kỷ luật nhưng
 ## Lời Kết
 Hồi giáo của người Chăm là minh chứng cho sự đa dạng và lòng bao dung văn hóa của dân tộc Việt Nam. Những ngôi thánh đường soi bóng bên dòng sông Hậu hay giữa nắng gió Ninh Thuận không chỉ là nơi cầu nguyện, mà còn là gạch nối văn hóa tuyệt đẹp giữa lòng Việt Nam và thế giới Hồi giáo rộng lớn.
 
-*Nguồn: Tư liệu Văn hóa Chăm - Cục Di sản văn hóa.*
+**Nguồn: Tư liệu Văn hóa Chăm - Cục Di sản văn hóa.**

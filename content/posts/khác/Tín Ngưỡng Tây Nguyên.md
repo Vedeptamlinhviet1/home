@@ -1,6 +1,6 @@
 # Tín Ngưỡng Tây Nguyên: Lời Thì Thầm Của Đại Ngàn Vạn Vật Hữu Linh
 
-Giữa không gian hùng vĩ của núi rừng Trường Sơn - Tây Nguyên, các dân tộc như Ê-đê, Gia-rai, Ba-na, M'nông... từ bao đời nay đã viết nên bản trường ca về sự cộng sinh giữa con người và thiên nhiên. Với niềm tin **"Vạn vật hữu linh"**, mỗi nhành cây, ngọn cỏ nơi đây đều mang trong mình một linh hồn, một vị thần (Giàng) đang ngày đêm che chở cho buôn làng.
+Giữa không gian hùng vĩ của núi rừng Trường Sơn - Tây Nguyên, các dân tộc như Ê-đê, Gia-rai, Ba-na, M'nông... từ bao đời nay đã viết nên bản trường ca về sự cộng sinh giữa con người và thiên nhiên. Với niềm tin "Vạn vật hữu linh", mỗi nhành cây, ngọn cỏ nơi đây đều mang trong mình một linh hồn, một vị thần (Giàng) đang ngày đêm che chở cho buôn làng.
 
 ## 1. Vạn Vật Hữu Linh: Thế Giới Của Những Vị Giàng
 
@@ -42,6 +42,6 @@ Tín ngưỡng vạn vật hữu linh đã kiến tạo nên một lối sống 
 
 ![Tín Ngưỡng Tây Nguyên: Lời Thì Thầm Của Đại Ngàn Vạn Vật Hữu Linh - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/10. Tín Ngưỡng Tây Nguyên/img-04.jpg)
 
-> **Thông điệp:** *"Rừng còn thì người còn, rừng mất thì người mất"*. Tín ngưỡng Tây Nguyên là minh chứng sống động cho việc con người có thể sống hòa hợp, tôn trọng và yêu thương thiên nhiên như một người bạn đại ngàn tri kỷ.
+> **Thông điệp:** **"Rừng còn thì người còn, rừng mất thì người mất"**. Tín ngưỡng Tây Nguyên là minh chứng sống động cho việc con người có thể sống hòa hợp, tôn trọng và yêu thương thiên nhiên như một người bạn đại ngàn tri kỷ.
 
-*Nguồn: Bảo tàng dân tộc học & Văn hóa Tây Nguyên.*
+**Nguồn: Bảo tàng dân tộc học & Văn hóa Tây Nguyên.**

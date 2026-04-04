@@ -2,8 +2,6 @@
 
 Trong kho tàng di sản của nhân loại, **Tín ngưỡng Thờ Mẫu Tam phủ** của người Việt hiện lên như một bức tranh rực rỡ sắc màu, nơi niềm tin tâm linh hòa quyện chặt chẽ với nghệ thuật trình diễn. Được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại, tín ngưỡng này không chỉ là một hình thức tín ngưỡng, mà còn là bản ca tôn vinh người Phụ nữ và quyền năng của thiên nhiên kỳ vĩ.
 
-![Tín ngưỡng Thờ Mẫu Tam Phủ: Nơi Con Người và Thần Linh Giao Thoa - Hình 1](./content/images/3. Các tín ngưỡng tôn giáo khác/1. Tín ngưỡng Thờ Mẫu Tam Phủ/img-01.webp)
-
 ## 1. Tam Phủ: Ba Cõi Hội Tụ
 Trái tim của tín ngưỡng này chính là hệ thống **Tam phủ**, đại diện cho ba vùng không gian cơ bản của vũ trụ dưới sự cai quản của các vị Thánh Mẫu:
 
@@ -30,9 +28,10 @@ Trong khi nhiều hệ thống tư tưởng truyền thống thường lấy nam
 
 ### Gắn kết với Thiên nhiên
 Việc thờ phụng Thiên - Nhạc - Thoải chính là sự khẳng định mối quan hệ hữu cơ giữa con người và môi trường.
+
 > **Thông điệp:** Tôn kính Mẫu cũng chính là tôn trọng và bảo vệ thiên nhiên – nguồn sống trực tiếp và duy nhất của nhân loại.
 
 ## Lời kết
 Tín ngưỡng Thờ Mẫu Tam phủ không chỉ là một nét đẹp tâm linh, mà còn là một **"bảo tàng sống"** lưu giữ lịch sử, trang phục, âm nhạc và khát vọng về một cuộc sống ấm no, hạnh phúc của người Việt.
 
-*Nguồn tham khảo: Hồ sơ Di sản văn hóa phi vật thể UNESCO.*
+**Nguồn tham khảo: Hồ sơ Di sản văn hóa phi vật thể UNESCO.**

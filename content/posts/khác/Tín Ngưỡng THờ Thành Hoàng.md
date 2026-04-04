@@ -45,4 +45,4 @@ Tín ngưỡng thờ Thành Hoàng Làng mang trong mình những giá trị đ�
 ## Lời Kết
 Ngôi Đình làng với cây đa, bến nước và vị Thành Hoàng bao dung đã tạo nên một không gian văn hóa đặc trưng "Làng trong Nước, Nước trong Làng". Tín ngưỡng ấy vẫn mãi là ngọn lửa ấm áp, hun đúc tình yêu quê hương và niềm tự hào dân tộc trong lòng mỗi người dân Việt.
 
-*Ghi chú: Nội dung phù hợp cho chuyên mục Lịch sử Việt Nam, Văn hóa Dân gian, Du lịch Cội nguồn.*
+**Ghi chú: Nội dung phù hợp cho chuyên mục Lịch sử Việt Nam, Văn hóa Dân gian, Du lịch Cội nguồn.**

@@ -8,12 +8,16 @@ Chùa Đại Tuệ thờ Phật Bà Đại Tuệ - đại diện cho trí tuệ 
 - Hào khí Quang Trung: Điểm dừng chân chiến lược của nghĩa quân Tây Sơn trên đường ra Bắc.
 - Địa linh: Vùng đất hội tụ khí thiêng, che chở cho dân lành qua bao biến cố lịch sử.
 
+![Chùa Đại Tuệ Nghệ An - Hình 1](./content/images/1. Phật Giáo/10. Chùa Đại Tuệ - Nghệ An/img-01.jpeg)
+
 **2. Nét đặc sắc trong kiến trúc**
 
 Ngôi chùa được xây dựng hoàn toàn bằng gỗ và đá với sự tỉ mỉ trong từng chi tiết:
 - Chùa Thượng: Ngôi điện cao nhất, nơi du khách có thể chạm tay vào mây trời.
 - Hồ Khuôn Sen: Nằm ngay cạnh chùa, mang lại không gian xanh mát và tĩnh lặng.
 - Chuông đồng: Tiếng chuông chùa Đại Tuệ được xem là âm thanh thức tỉnh tâm hồn, vang xa khắp vùng thung lũng Nam Đàn.
+
+![Chùa Đại Tuệ Nghệ An - Hình 2](./content/images/1. Phật Giáo/10. Chùa Đại Tuệ - Nghệ An/img-02.jpeg)
 
 **3. Cảm nhận khi ghé thăm**
 
@@ -22,10 +26,14 @@ Ngôi chùa được xây dựng hoàn toàn bằng gỗ và đá với sự t�
 2. Thư giãn: Hít hà mùi nhang trầm hòa quyện cùng gió núi, xua tan mọi mệt mỏi.
 3. Check-in: Chụp những bức ảnh từ "Cổng trời" nhìn xuống toàn cảnh đồng bằng xứ Nghệ.
 
+![Chùa Đại Tuệ Nghệ An - Hình 3](./content/images/1. Phật Giáo/10. Chùa Đại Tuệ - Nghệ An/img-03.webp)
+
 **4. Lời khuyên cho bạn**
 
 - Đi bộ: Nếu có sức khỏe, bạn nên thử leo bộ từ chùa Hạ lên chùa Thượng để cảm nhận trọn vẹn cảnh sắc thiên nhiên.
 - Trang phục: Ăn mặc lịch sự. Nên mang theo máy ảnh vì khung cảnh từ đỉnh núi rất tuyệt vời.
 - Giờ mở cửa: Chùa đón khách quanh năm, nhưng đẹp nhất là sáng sớm khi sương mù còn bảng lảng.
+
+![Chùa Đại Tuệ Nghệ An - Hình 4](./content/images/1. Phật Giáo/10. Chùa Đại Tuệ - Nghệ An/img-04.webp)
 
 Chùa Đại Tuệ - Nơi trí tuệ soi sáng, nơi tâm hồn tìm về bến đỗ an nhiên.

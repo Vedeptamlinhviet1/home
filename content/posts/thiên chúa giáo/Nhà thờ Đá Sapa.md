@@ -28,6 +28,5 @@ Nhà thờ Đá đóng vai trò là "trái tim" của Sapa:
 
 ![Nhà thờ Đá Sapa - Hình 3](./content/images/2. Thiên Chúa Giáo/1. Nhà Thờ Đá Sapa/img-03.jpg)
 
-*Nhà thờ Đá Sapa - Nơi nét kiến trúc Pháp hòa quyện vào hơi thở của núi rừng Lào Cai.*
-
+**Nhà thờ Đá Sapa - Nơi nét kiến trúc Pháp hòa quyện vào hơi thở của núi rừng Lào Cai.**
 ![Nhà thờ Đá Sapa - Hình 4](./content/images/2. Thiên Chúa Giáo/1. Nhà Thờ Đá Sapa/img-04.jpg)

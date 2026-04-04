@@ -41,4 +41,4 @@ Tín ngưỡng này không đòi hỏi sự mâm cao cỗ đầy, mà quan trọ
 
 ![Tín Ngưỡng Thờ Cúng Tổ Tiên: Đạo Hiếu Và Sợi Dây Gắn Kết Tâm Linh Người Việt - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/9. Tín Ngưỡng Thờ Cúng Tổ Tiên/img-04.jpg)
 
-*Ghi chú: Nội dung phù hợp cho chuyên mục Giáo dục đạo đức, Văn hóa gia đình Việt.*
+**Ghi chú: Nội dung phù hợp cho chuyên mục Giáo dục đạo đức, Văn hóa gia đình Việt.**

@@ -27,6 +27,5 @@ Nhà thờ Con Gà thu hút ánh nhìn bởi phong cách xây dựng đặc trư
 
 ![Nhà thờ Con Gà Đà Nẵng - Hình 3](./content/images/2. Thiên Chúa Giáo/8. Nhà Thờ Con Gà Đà Nẵng/img-03.jpg)
 
-*Nhà thờ Con Gà Đà Nẵng - Nét chấm phá lãng mạn bên dòng sông Hàn thơ mộng.*
-
+**Nhà thờ Con Gà Đà Nẵng - Nét chấm phá lãng mạn bên dòng sông Hàn thơ mộng.**
 ![Nhà thờ Con Gà Đà Nẵng - Hình 4](./content/images/2. Thiên Chúa Giáo/8. Nhà Thờ Con Gà Đà Nẵng/img-04.jpg)

@@ -28,4 +28,4 @@ Nhà thờ Đức Bà nổi tiếng với sắc đỏ nồng nàn không phai m�
 
 ![Nhà thờ Đức Bà - Hình 4](./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-04.jpg)
 
-*Nhà thờ Đức Bà - Trái tim hồng của Sài Gòn qua bao thế kỷ.*
+**Nhà thờ Đức Bà - Trái tim hồng của Sài Gòn qua bao thế kỷ.**

@@ -6,7 +6,7 @@ const STORAGE_KEYS = {
   postsVersion: "viettam_posts_version"
 };
 
-const POSTS_DATA_VERSION = "2026-03-29-khac-refresh-1";
+const POSTS_DATA_VERSION = "2026-04-04-buddhist-images-1";
 
 const CATEGORY_MAP = {
   "phat-giao": "Dau an Phat giao",
@@ -124,6 +124,9 @@ function normalizeMarkdownSource(raw) {
   return String(raw || "")
     .replace(/\r\n/g, "\n")
     .replace(/\\([#*`_>\-\[\]()\.])/g, "$1")
+    .replace(/^(#{1,6})([^\s#])/gm, "$1 $2")
+    // Ensure headings become standalone blocks so block-based parser can render them as headings.
+    .replace(/^(#{1,6}\s+[^\n]+)\n(?!\n)/gm, "$1\n\n")
     .trim();
 }
 
@@ -153,7 +156,9 @@ function formatPostContent(raw, options = {}) {
   if (!normalized) return "<p>Đang cập nhật nội dung.</p>";
 
   const renderInline = (text) =>
-    escapeHtml(text).replace(/\*\*\s*(.+?)\s*\*\*/g, "<strong>$1</strong>");
+    escapeHtml(text)
+      .replace(/\*\*\s*(.+?)\s*\*\*/g, "<strong>$1</strong>")
+      .replace(/\*(?!\*)([^*\n]+?)\*(?!\*)/g, "<strong>$1</strong>");
   const safeImageSrc = (src) => encodeURI(String(src || "").trim());
   const postTitleKey = toComparableText(options.postTitle);
 
@@ -166,9 +171,9 @@ function formatPostContent(raw, options = {}) {
     const lines = block.split("\n").map((l) => l.trim()).filter(Boolean);
     if (!lines.length) return "";
 
-    if (lines.length === 1 && /^#{1,3}\s+/.test(lines[0])) {
+    if (lines.length === 1 && /^#{1,3}\s*/.test(lines[0])) {
       const level = Math.min(4, lines[0].match(/^#+/)[0].length + 1);
-      const text = lines[0].replace(/^#{1,3}\s+/, "");
+      const text = lines[0].replace(/^#{1,3}\s*/, "");
       if (postTitleKey && toComparableText(text) === postTitleKey) return "";
       return `<h${level}>${escapeHtml(text)}</h${level}>`;
     }
@@ -220,6 +225,10 @@ function formatPostContent(raw, options = {}) {
   });
 
   return htmlBlocks.filter(Boolean).join("\n");
+}
+
+function removeFirstContentFigure(html) {
+  return String(html || "").replace(/<figure>[\s\S]*?<\/figure>/, "");
 }
 
 async function loadCuratedPostsFromFiles() {
@@ -910,15 +919,14 @@ function renderPost(postId) {
   const currentUser = getCurrentUser();
   const approvedPosts = getPosts().filter((p) => p.status === "approved" && p.id !== post.id);
   const recommendations = [...approvedPosts].sort(() => Math.random() - 0.5).slice(0, 3);
-  const excerptText = String(post.excerpt || "").trim();
-  const showExcerpt = excerptText && toComparableText(excerptText) !== toComparableText(post.title);
-  const renderedPostContent = post.formattedContent || formatPostContent(post.content, { postTitle: post.title });
+  const renderedPostContent = removeFirstContentFigure(
+    post.formattedContent || formatPostContent(post.content, { postTitle: post.title })
+  );
 
   appEl.innerHTML = `
     <article class="panel">
       <p class="meta">${escapeHtml(formatCategoryLabel(post.category))} · ${formatDate(post.createdAt)} · ${escapeHtml(getAuthorName(post))}</p>
       <h2 class="post-title">${escapeHtml(post.title)}</h2>
-      ${showExcerpt ? `<p class="lead">${escapeHtml(excerptText)}</p>` : ""}
       ${post.image ? `<img class="post-hero-image" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" />` : ""}
       <div class="post-content">${renderedPostContent}</div>
       ${

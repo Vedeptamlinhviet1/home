@@ -27,6 +27,5 @@ Ghé thăm Xã Đoài, du khách không chỉ chiêm bái nhà thờ mà còn đ
 
 ![Nhà thờ Chính Tòa Xã Đoài - Hình 3](./content/images/2. Thiên Chúa Giáo/6. Nhà Thờ Chính Tòa Xã Đoài/img-03.jpg)
 
-*Nhà thờ Xã Đoài - Nơi hào khí xứ Nghệ hòa quyện cùng tiếng chuông nhà Chúa.*
-
+**Nhà thờ Xã Đoài - Nơi hào khí xứ Nghệ hòa quyện cùng tiếng chuông nhà Chúa.**
 ![Nhà thờ Chính Tòa Xã Đoài - Hình 4](./content/images/2. Thiên Chúa Giáo/6. Nhà Thờ Chính Tòa Xã Đoài/img-04.jpg)

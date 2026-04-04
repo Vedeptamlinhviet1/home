@@ -42,4 +42,4 @@ Tín ngưỡng này không đòi hỏi lễ vật cầu kỳ. Đôi khi chỉ l�
 
 ![Tín Ngưỡng Thờ Thần Tài - Thổ Địa: Tâm Linh Trong Nhịp Sống Kinh Doanh Hiện Đại - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/6. Tín Ngưỡng Thờ Thần Tài - Thổ Địa/img-04.jpg)
 
-*Ghi chú: Nội dung phù hợp cho các chuyên mục Đời sống, Văn hóa Kinh doanh, Tâm linh Việt.*
+**Ghi chú: Nội dung phù hợp cho các chuyên mục Đời sống, Văn hóa Kinh doanh, Tâm linh Việt.**

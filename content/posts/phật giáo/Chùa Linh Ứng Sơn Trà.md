@@ -8,11 +8,15 @@ Chùa Linh Ứng Bãi Bụt là ngôi chùa lớn nhất trong ba ngôi chùa ma
 - Linh khí: Được xem là nơi trấn giữ cửa biển, mang lại sự an lành cho thành phố.
 - Kiến trúc: Sự kết hợp giữa nghệ thuật chạm khắc đá tinh xảo và không gian nhà vườn thanh tịnh.
 
+![Chùa Linh Ứng Sơn Trà - Hình 1](./content/images/1. Phật Giáo/12. Chùa Linh Ứng Sơn Trà/img-01.jpg)
+
 **2. Những con số ấn tượng**
 
 - 67 mét: Chiều cao của tượng Phật Bà Quan Thế Âm, kỷ lục cao nhất Việt Nam.
 - 18 pho tượng La Hán: Những tác phẩm điêu khắc đá nguyên khối nghệ thuật chạy dọc lối vào.
 - Trải nghiệm: Du khách có thể leo lên các tầng trong lòng tượng Phật để nhìn ngắm vịnh Đà Nẵng từ trên cao.
+
+![Chùa Linh Ứng Sơn Trà - Hình 2](./content/images/1. Phật Giáo/12. Chùa Linh Ứng Sơn Trà/img-02.jpg)
 
 **3. Lưu ý cho chuyến tham quan**
 
@@ -20,11 +24,15 @@ Chùa Linh Ứng Bãi Bụt là ngôi chùa lớn nhất trong ba ngôi chùa ma
 2. Động vật: Trên chùa thường có nhiều khỉ rừng xuống xin ăn, hãy cẩn thận bảo quản đồ dùng cá nhân và tránh trêu đùa chúng.
 3. Chụp ảnh: Góc sân phía trước tượng Phật Bà là nơi lý tưởng nhất để lấy được toàn cảnh biển và thành phố Đà Nẵng.
 
+![Chùa Linh Ứng Sơn Trà - Hình 3](./content/images/1. Phật Giáo/12. Chùa Linh Ứng Sơn Trà/img-03.jpeg)
+
 **4. Hành trình kết hợp**
 
 Sau khi thăm chùa, bạn có thể tiếp tục khám phá các địa danh lân cận trên bán đảo Sơn Trà như:
 - Cây đa ngàn năm.
 - Đỉnh Bàn Cờ.
 - Trạm Radar 29 (Mắt thần Đông Dương).
+
+![Chùa Linh Ứng Sơn Trà - Hình 4](./content/images/1. Phật Giáo/12. Chùa Linh Ứng Sơn Trà/img-04.jpg)
 
 Chùa Linh Ưng Sơn Trà - Nơi tiếng chuông hòa cùng sóng vỗ.

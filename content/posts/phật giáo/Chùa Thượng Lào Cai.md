@@ -6,7 +6,11 @@ Nằm uy nghi trên đỉnh núi Mai Lĩnh, thuộc phường Lào Cai, thành p
 
 Chùa Thượng sở hữu một vị trí địa lý vô cùng đặc biệt. Ngôi chùa nằm ngay sát đường biên giới Việt - Trung, nơi hợp lưu của dòng sông Hồng đỏ nặng phù sa và dòng sông Nậm Thi xanh biếc.
 
+![Chùa Thượng Lào Cai - Hình 1](./content/images/1. Phật Giáo/1. Chùa Thượng Lào Cai/img-01.jpg)
+
 > Từ sân chùa, du khách có thể phóng tầm mắt nhìn sang nước bạn, cảm nhận sự bình yên của vùng biên giới và sự hùng vĩ của núi rừng Tây Bắc. Đây chính là điểm hội tụ khí thiêng của sông núi, tạo nên một không gian thoát tục, trang nghiêm.
+
+![Chùa Thượng Lào Cai - Hình 2](./content/images/1. Phật Giáo/1. Chùa Thượng Lào Cai/img-02.jpg)
 
 **2. Lịch sử gắn liền với hào khí Đông A**
 
@@ -24,9 +28,13 @@ Chùa Thượng mang đậm nét kiến trúc truyền thống của vùng đồ
 - Thiêu hương
 - Thượng điện
 
+![Chùa Thượng Lào Cai - Hình 3](./content/images/1. Phật Giáo/1. Chùa Thượng Lào Cai/img-03.jpg)
+
 **4. Lễ hội Chùa Thượng – Nét đẹp văn hóa biên cương**
 
 Hàng năm, cứ vào ngày Rằm tháng Giêng, lễ hội Chùa Thượng lại được tổ chức linh đình. Đây là dịp để:
+
+![Chùa Thượng Lào Cai - Hình 4](./content/images/1. Phật Giáo/1. Chùa Thượng Lào Cai/img-04.jpg)
 
 1. Người dân và du khách thập phương dâng hương cầu nguyện một năm mới bình an, sức khỏe.
 2. Tham gia các trò chơi dân gian như: Chọi gà, kéo co, vật dân tộc... mang đậm bản sắc vùng cao.

@@ -7,7 +7,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-01T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1528360983277-13d401cdc186?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/9. Chùa Am Tiên - Thanh Hóa/img-01.jpeg",
     "location": {
       "name": "Chùa Am Tiên, Thanh Hóa",
       "lat": 19.8576,
@@ -23,7 +23,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-02T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/13. Chùa Bà Đen Tây Ninh/img-01.jpg",
     "location": {
       "name": "Chùa Bà Đen, Tây Ninh",
       "lat": 11.3676,
@@ -39,7 +39,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-03T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/10. Chùa Đại Tuệ - Nghệ An/img-01.jpeg",
     "location": {
       "name": "Chùa Đại Tuệ, Nghệ An",
       "lat": 18.7813,
@@ -55,7 +55,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-04T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1519491050282-cf00c82424b4?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/3. Chùa Linh Quang - Điện Biên/img-01.jpg",
     "location": {
       "name": "Chùa Linh Quang, Điện Biên",
       "lat": 21.386,
@@ -71,7 +71,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-05T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1459679749680-18eb9de45d44?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/5. Chùa Linh Sơn - Lai Châu/img-01.jpg",
     "location": {
       "name": "Chùa Linh Sơn, Lai Châu",
       "lat": 22.3792,
@@ -87,7 +87,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-06T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/12. Chùa Linh Ứng Sơn Trà/img-01.jpg",
     "location": {
       "name": "Chùa Linh Ứng Sơn Trà, Đà Nẵng",
       "lat": 16.1006,
@@ -103,7 +103,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-07T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/7. Chùa Một Cột - Hà Nội/img-01.jpg",
     "location": {
       "name": "Chùa Một Cột, Hà Nội",
       "lat": 21.0358,
@@ -119,7 +119,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-08T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1508675801627-066ac4346a55?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/15.  Chùa Ông Cần Thơ/img-01.jpg",
     "location": {
       "name": "Chùa Ông, Cần Thơ",
       "lat": 10.0359,
@@ -135,7 +135,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-09T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/8.  Chùa Tam Chúc - Hà Nam/img-01.jpg",
     "location": {
       "name": "Chùa Tam Chúc, Hà Nam",
       "lat": 20.5566,
@@ -151,7 +151,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-10T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/11.  Chùa Thiên Mụ - Huế/img-01.jpg",
     "location": {
       "name": "Chùa Thiên Mụ, Huế",
       "lat": 16.4523,
@@ -167,7 +167,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-11T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1518005020951-eccb494ad742?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/1. Chùa Thượng Lào Cai/img-01.jpg",
     "location": {
       "name": "Chùa Thượng, Lào Cai",
       "lat": 22.4869,
@@ -183,7 +183,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-12T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/4. Chùa Tiên - Hòa Bình/img-01.jpg",
     "location": {
       "name": "Chùa Tiên, Hòa Bình",
       "lat": 20.4988,
@@ -199,7 +199,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-13T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1482192597420-4817fdd2e8b1?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/6.  Chùa Trúc Lâm Hưng Quốc - Sơn La/img-01.jpg",
     "location": {
       "name": "Chùa Trúc Lâm Hưng Quốc, Sơn La",
       "lat": 21.3256,
@@ -215,7 +215,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-14T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1526483360412-f4dbaf036963?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/14. Chùa Vĩnh Nghiêm - HCM/img-01.jpg",
     "location": {
       "name": "Chùa Vĩnh Nghiêm, TP.HCM",
       "lat": 10.7871,
@@ -231,7 +231,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-15T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/1. Phật Giáo/2. Di Tích Hầm Chùa Hắc Y - Yên Bái/img-01.jpg",
     "location": {
       "name": "Di tích Hầm chùa Hắc Y, Yên Bái",
       "lat": 22.1025,
@@ -242,7 +242,7 @@
   {
     "id": "seed-catholic-01",
     "title": "Nhà Thờ Cao Xá Tây Ninh: Điểm Tựa Đức Tin Vùng Biên Viễn",
-    "excerpt": "Nằm kiêu hãnh bên trục đường chính dẫn vào thành phố Tây Ninh, **Nhà thờ Cao Xá** là công trình Công giáo tiêu biểu, mang đậm dấu ấn lịch sử di cư và kiến trúc Gothic phương Tây.",
+    "excerpt": "Nằm kiêu hãnh bên trục đường chính dẫn vào thành phố Tây Ninh,  Nhà thờ Cao Xá  là công trình Công giáo tiêu biểu, mang đậm dấu ấn lịch sử di cư và kiến trúc Gothic phương Tây.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -258,7 +258,7 @@
   {
     "id": "seed-catholic-02",
     "title": "Nhà Thờ Chính Tòa Thanh Hóa: Nét Kiến Trúc Cổ Kính Xứ Thanh",
-    "excerpt": "Tọa lạc tại trung tâm thành phố, **Nhà thờ Chính tòa Thanh Hóa** là biểu tượng của đức tin và là một trong những công trình kiến trúc phương Tây đẹp nhất tỉnh Thanh Hóa.",
+    "excerpt": "Tọa lạc tại trung tâm thành phố,  Nhà thờ Chính tòa Thanh Hóa  là biểu tượng của đức tin và là một trong những công trình kiến trúc phương Tây đẹp nhất tỉnh Thanh Hóa.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -274,7 +274,7 @@
   {
     "id": "seed-catholic-03",
     "title": "Nhà Thờ Chính Tòa Xã Đoài: Biểu Tượng Công Giáo Xứ Nghệ",
-    "excerpt": "Tọa lạc tại vùng đất Nghi Lộc địa linh nhân kiệt, **Nhà thờ Chính tòa Xã Đoài** là trái tim của Giáo phận Vinh, nơi hội tụ tinh hoa kiến trúc và đức tin của người dân Nghệ An.",
+    "excerpt": "Tọa lạc tại vùng đất Nghi Lộc địa linh nhân kiệt,  Nhà thờ Chính tòa Xã Đoài  là trái tim của Giáo phận Vinh, nơi hội tụ tinh hoa kiến trúc và đức tin của người dân Nghệ An.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -290,7 +290,7 @@
   {
     "id": "seed-catholic-04",
     "title": "Nhà Thờ Con Gà Đà Nẵng: Biểu Tượng Sắc Hồng Phố Biển",
-    "excerpt": "Nằm rạng rỡ giữa lòng thành phố, **Nhà thờ Chính tòa Đà Nẵng** là sự kết hợp hoàn hảo giữa nét kiến trúc Gothic Pháp và vẻ đẹp duyên dáng, hiện đại của đô thị miền Trung.",
+    "excerpt": "Nằm rạng rỡ giữa lòng thành phố,  Nhà thờ Chính tòa Đà Nẵng  là sự kết hợp hoàn hảo giữa nét kiến trúc Gothic Pháp và vẻ đẹp duyên dáng, hiện đại của đô thị miền Trung.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -306,7 +306,7 @@
   {
     "id": "seed-catholic-05",
     "title": "Nhà Thờ Đá Sapa: Biểu Tượng Kiến Trúc Gothic Pháp Giữa Sương Mù",
-    "excerpt": "Đứng hiên ngang giữa trung tâm thị trấn, **Nhà thờ Đá Sapa** là công trình kiến trúc cổ kính nhất, mang lại vẻ đẹp đậm chất Âu châu cho vùng núi rừng Tây Bắc.",
+    "excerpt": "Đứng hiên ngang giữa trung tâm thị trấn,  Nhà thờ Đá Sapa  là công trình kiến trúc cổ kính nhất, mang lại vẻ đẹp đậm chất Âu châu cho vùng núi rừng Tây Bắc.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -322,7 +322,7 @@
   {
     "id": "seed-catholic-06",
     "title": "Nhà Thờ Đức Bà Sài Gòn: Kiệt Tác Kiến Trúc Giữa Lòng Thành Phố",
-    "excerpt": "Sừng sững giữa trung tâm Quận 1, **Nhà thờ Đức Bà** là minh chứng cho tài hoa kiến trúc của người Pháp và là biểu tượng tinh thần không thể thay thế của người dân Sài Gòn.",
+    "excerpt": "Sừng sững giữa trung tâm Quận 1,  Nhà thờ Đức Bà  là minh chứng cho tài hoa kiến trúc của người Pháp và là biểu tượng tinh thần không thể thay thế của người dân Sài Gòn.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -338,7 +338,7 @@
   {
     "id": "seed-catholic-07",
     "title": "Nhà Thờ Lớn Hà Nội: Linh Hồn Công Giáo Giữa Lòng Thủ Đô",
-    "excerpt": "Đứng sừng sững giữa khu phố cổ đông đúc, **Nhà thờ Lớn Hà Nội** (Nhà thờ Chính tòa Thánh Giuse) mang vẻ đẹp kiến trúc Gothic Pháp hòa quyện với tâm hồn người Việt, tạo nên một biểu tượng văn hóa vượt thời gian.",
+    "excerpt": "Đứng sừng sững giữa khu phố cổ đông đúc,  Nhà thờ Lớn Hà Nội  (Nhà thờ Chính tòa Thánh Giuse) mang vẻ đẹp kiến trúc Gothic Pháp hòa quyện với tâm hồn người Việt, tạo nên một biểu tượng văn hóa vượt thời gian.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -354,7 +354,7 @@
   {
     "id": "seed-catholic-08",
     "title": "Nhà Thờ Đá Phát Diệm: Tuyệt Tác Kiến Trúc Đông - Tây Kết Hợp",
-    "excerpt": "Nằm giữa vùng đất Kim Sơn, **Nhà thờ Đá Phát Diệm** được mệnh danh là \"Kinh đô Công giáo\" của Việt Nam nhờ sự độc đáo trong kiến trúc đình chùa phương Đông.",
+    "excerpt": "Nằm giữa vùng đất Kim Sơn,  Nhà thờ Đá Phát Diệm  được mệnh danh là \"Kinh đô Công giáo\" của Việt Nam nhờ sự độc đáo trong kiến trúc đình chùa phương Đông.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -370,7 +370,7 @@
   {
     "id": "seed-catholic-09",
     "title": "Nhà Thờ Phủ Cam: Kiệt Tác Kiến Trúc Hiện Đại Giữa Lòng Cố Đô",
-    "excerpt": "Đứng uy nghi trên đồi Phước Quả, **Nhà thờ Chính tòa Phủ Cam** là minh chứng cho tài năng của KTS Ngô Viết Thụ và là biểu tượng của kiến trúc Công giáo hiện đại Việt Nam.",
+    "excerpt": "Đứng uy nghi trên đồi Phước Quả,  Nhà thờ Chính tòa Phủ Cam  là minh chứng cho tài năng của KTS Ngô Viết Thụ và là biểu tượng của kiến trúc Công giáo hiện đại Việt Nam.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -386,7 +386,7 @@
   {
     "id": "seed-catholic-10",
     "title": "Nhà Thờ Sở Kiện: Vương Cung Thánh Đường Cổ Kính Tại Hà Nam",
-    "excerpt": "Tọa lạc tại vùng chiêm trũng Hà Nam, **Vương cung thánh đường Sở Kiện** là một trong những công trình Công giáo quan trọng và đẹp nhất Việt Nam với bề dày lịch sử hơn 100 năm.",
+    "excerpt": "Tọa lạc tại vùng chiêm trũng Hà Nam,  Vương cung thánh đường Sở Kiện  là một trong những công trình Công giáo quan trọng và đẹp nhất Việt Nam với bề dày lịch sử hơn 100 năm.",
     "category": "Thien chua giao",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -402,7 +402,7 @@
   {
     "id": "seed-khac-01",
     "title": "Đạo Cao Đài: Biểu Tượng Thiên Nhãn Và Khát Vọng Hòa Bình Thế Giới",
-    "excerpt": "Đạo Cao Đài, hay Đại Đạo Tam Kỳ Phổ Độ, là một tôn giáo đặc biệt ra đời tại Việt Nam vào đầu thế kỷ XX. Với trung tâm hành hương là **Tòa Thánh Tây Ninh**, tôn giáo này không chỉ gây ấn tượng bởi sự lộng lẫy về kiến trúc mà còn bởi triết...",
+    "excerpt": "Đạo Cao Đài, hay Đại Đạo Tam Kỳ Phổ Độ, là một tôn giáo đặc biệt ra đời tại Việt Nam vào đầu thế kỷ XX. Với trung tâm hành hương là Tòa Thánh Tây Ninh, tôn giáo này không chỉ gây ấn tượng bởi sự lộng lẫy về kiến trúc mà còn bởi triết...",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -450,7 +450,7 @@
   {
     "id": "seed-khac-04",
     "title": "Tín ngưỡng Thờ Mẫu Tam Phủ: Nơi Con Người và Thần Linh Giao Thoa",
-    "excerpt": "Trong kho tàng di sản của nhân loại, **Tín ngưỡng Thờ Mẫu Tam phủ** của người Việt hiện lên như một bức tranh rực rỡ sắc màu, nơi niềm tin tâm linh hòa quyện chặt chẽ với nghệ thuật trình diễn. Được UNESCO ghi danh là Di sản văn hóa phi...",
+    "excerpt": "Trong kho tàng di sản của nhân loại, Tín ngưỡng Thờ Mẫu Tam phủ của người Việt hiện lên như một bức tranh rực rỡ sắc màu, nơi niềm tin tâm linh hòa quyện chặt chẽ với nghệ thuật trình diễn. Được UNESCO ghi danh là Di sản văn hóa phi...",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -461,7 +461,7 @@
   {
     "id": "seed-khac-05",
     "title": "Tín Ngưỡng Tây Nguyên: Lời Thì Thầm Của Đại Ngàn Vạn Vật Hữu Linh",
-    "excerpt": "Giữa không gian hùng vĩ của núi rừng Trường Sơn - Tây Nguyên, các dân tộc như Ê-đê, Gia-rai, Ba-na, M'nông... từ bao đời nay đã viết nên bản trường ca về sự cộng sinh giữa con người và thiên nhiên. Với niềm tin **\"Vạn vật hữu linh\"**, mỗ...",
+    "excerpt": "Giữa không gian hùng vĩ của núi rừng Trường Sơn - Tây Nguyên, các dân tộc như Ê-đê, Gia-rai, Ba-na, M'nông... từ bao đời nay đã viết nên bản trường ca về sự cộng sinh giữa con người và thiên nhiên. Với niềm tin  \"Vạn vật hữu linh\" , mỗ...",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -472,7 +472,7 @@
   {
     "id": "seed-khac-06",
     "title": "Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương",
-    "excerpt": "Đối với ngư dân dọc dải đất hình chữ S, biển cả không chỉ là nguồn sống mà còn là nơi ngự trị của những sức mạnh siêu nhiên đầy lòng trắc ẩn. Trong đó, **Tín ngưỡng thờ Cá Ông** (cá voi) hiện lên như một biểu tượng đẹp đẽ nhất về mối nhâ...",
+    "excerpt": "Đối với ngư dân dọc dải đất hình chữ S, biển cả không chỉ là nguồn sống mà còn là nơi ngự trị của những sức mạnh siêu nhiên đầy lòng trắc ẩn. Trong đó, Tín ngưỡng thờ Cá Ông (cá voi) hiện lên như một biểu tượng đẹp đẽ nhất về mối  nhân duyên giữa con người và biển cả, nơi niềm tin trở thành điểm tựa trước sóng gió trùng khơi.",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -483,7 +483,7 @@
   {
     "id": "seed-khac-07",
     "title": "Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết \"Đồng Bào\" Từ Đền Hùng",
-    "excerpt": "Trong tâm thức của mỗi người Việt, dù ở bất cứ nơi đâu, hai chữ \"Nguồn cội\" luôn mang một sức mạnh thiêng liêng khó tả. **Tín ngưỡng Thờ cúng Hùng Vương** – Di sản văn hóa phi vật thể đại diện của nhân loại chính là biểu tượng cao đẹp nh...",
+    "excerpt": "Trong tâm thức của mỗi người Việt, dù ở bất cứ nơi đâu, hai chữ \"Nguồn cội\" luôn mang một sức mạnh thiêng liêng khó tả. Tín ngưỡng Thờ cúng Hùng Vương, Di sản văn hóa phi vật thể đại diện của nhân loại chính là biểu tượng cao đẹp nhất cho tinh thần đoàn kết và đạo lý 'Uống nước nhớ nguồn' của dân tộc ta.",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -494,7 +494,7 @@
   {
     "id": "seed-khac-08",
     "title": "Tín Ngưỡng Thờ Cúng Tổ Tiên: Đạo Hiếu Và Sợi Dây Gắn Kết Tâm Linh Người Việt",
-    "excerpt": "Trong tâm khảm mỗi người Việt, dù đi đâu về đâu, hình ảnh bàn thờ gia tiên với khói hương nghi ngút luôn là biểu tượng ấm áp nhất của gia đình. **Tín ngưỡng thờ cúng Tổ tiên** không chỉ là một nghi thức tôn giáo, mà còn là nhịp cầu tâm l...",
+    "excerpt": "Trong tâm khảm mỗi người Việt, dù đi đâu về đâu, hình ảnh bàn thờ gia tiên với khói hương nghi ngút luôn là biểu tượng ấm áp nhất của gia đình.  Tín ngưỡng thờ cúng Tổ tiên  không chỉ là một nghi thức tôn giáo, mà còn là nhịp cầu tâm l...",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -505,7 +505,7 @@
   {
     "id": "seed-khac-09",
     "title": "Tín Ngưỡng Thờ Thành Hoàng Làng: Vị \"Hộ Pháp\" Canh Giữ Lũy Tre Xanh",
-    "excerpt": "Trong tâm thức người Việt, nếu gia đình có Tổ tiên, thì làng xóm có **Thành Hoàng**. Đây là vị thần tối cao cai quản, che chở cho dân làng, là \"linh hồn\" ẩn sau những lũy tre xanh và là chứng nhân cho dòng chảy lịch sử của mỗi vùng đất.",
+    "excerpt": "Trong tâm thức người Việt, nếu gia đình có Tổ tiên, thì làng xóm có  Thành Hoàng . Đây là vị thần tối cao cai quản, che chở cho dân làng, là \"linh hồn\" ẩn sau những lũy tre xanh và là chứng nhân cho dòng chảy lịch sử của mỗi vùng đất.",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",
@@ -516,7 +516,7 @@
   {
     "id": "seed-khac-10",
     "title": "Tín Ngưỡng Thờ Thần Tài - Thổ Địa: Tâm Linh Trong Nhịp Sống Kinh Doanh Hiện Đại",
-    "excerpt": "Nếu có một hình ảnh quen thuộc nhất tại các cửa hàng, văn phòng hay quán ăn từ thành thị đến nông thôn Việt Nam, đó chính là chiếc bàn thờ nhỏ đặt sát mặt đất, nơi ngự trị của **Thần Tài và Thổ Địa**. Đây là biểu tượng của sự kết hợp hài...",
+    "excerpt": "Nếu có một hình ảnh quen thuộc nhất tại các cửa hàng, văn phòng hay quán ăn từ thành thị đến nông thôn Việt Nam, đó chính là chiếc bàn thờ nhỏ đặt sát mặt đất, nơi ngự trị của  Thần Tài và Thổ Địa . Đây là biểu tượng của sự kết hợp hài...",
     "category": "Tin nguong va ton giao khac",
     "status": "approved",
     "authorName": "Ban Bien Tap",

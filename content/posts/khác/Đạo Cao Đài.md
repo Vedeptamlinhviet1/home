@@ -1,6 +1,6 @@
 # Đạo Cao Đài: Biểu Tượng Thiên Nhãn Và Khát Vọng Hòa Bình Thế Giới
 
-Đạo Cao Đài, hay Đại Đạo Tam Kỳ Phổ Độ, là một tôn giáo đặc biệt ra đời tại Việt Nam vào đầu thế kỷ XX. Với trung tâm hành hương là **Tòa Thánh Tây Ninh**, tôn giáo này không chỉ gây ấn tượng bởi sự lộng lẫy về kiến trúc mà còn bởi triết lý hòa hợp nhân loại sâu sắc.
+Đạo Cao Đài, hay Đại Đạo Tam Kỳ Phổ Độ, là một tôn giáo đặc biệt ra đời tại Việt Nam vào đầu thế kỷ XX. Với trung tâm hành hương là Tòa Thánh Tây Ninh, tôn giáo này không chỉ gây ấn tượng bởi sự lộng lẫy về kiến trúc mà còn bởi triết lý hòa hợp nhân loại sâu sắc.
 
 ## 1. Thiên Nhãn: Biểu Tượng Của Sự Thấu Suốt Và Công Bằng
 
@@ -29,7 +29,7 @@ Tòa Thánh Tây Ninh được ví như một kỳ quan kiến trúc, nơi nhữ
 
 Một trong những điểm độc đáo nhất của Đạo Cao Đài chính là tinh thần **hòa hợp**. Theo tôn giáo này, tất cả các tôn giáo đều có chung một gốc rễ chân lý.
 
-### Tam Thánh Cao Đài
+**Tam Thánh Cao Đài**
 Sự giao thoa này được thể hiện rõ nét nhất qua bức họa **Tam Thánh ký hòa ước**, quy tụ các vị thánh nhân từ các nền văn hóa khác nhau:
 1. **Trạng Trình Nguyễn Bỉnh Khiêm:** Đại diện cho trí tuệ và đạo đức truyền thống Việt Nam.
 2. **Victor Hugo:** Đại diện cho tư tưởng nhân văn và văn minh phương Tây.
@@ -42,4 +42,4 @@ Sự giao thoa này được thể hiện rõ nét nhất qua bức họa **Tam 
 ## Lời Kết
 Ghé thăm Tòa Thánh Tây Ninh, du khách không chỉ được chiêm ngưỡng một công trình vĩ đại mà còn cảm nhận được hơi thở của một đức tin đề cao sự khoan dung. Đạo Cao Đài chính là minh chứng cho tâm hồn mở mang của người Việt: sẵn sàng tiếp nhận tinh hoa thế giới để kiến tạo nên những giá trị nhân văn riêng biệt.
 
-*Ghi chú: Nội dung phù hợp cho trang giới thiệu văn hóa, du lịch tâm linh.*
+**Ghi chú: Nội dung phù hợp cho trang giới thiệu văn hóa, du lịch tâm linh.**

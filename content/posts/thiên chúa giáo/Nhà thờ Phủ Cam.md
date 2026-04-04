@@ -28,6 +28,5 @@ Ghé thăm Phủ Cam, du khách sẽ cảm nhận được:
 
 ![Nhà thờ Phủ Cam - Hình 3](./content/images/2. Thiên Chúa Giáo/7. Nhà Thờ Phủ Cam - Huế/img-03.jpg)
 
-*Nhà thờ Phủ Cam - Nơi kiến trúc hiện đại hòa nhịp cùng hơi thở tâm linh xứ Huế.*
-
+**Nhà thờ Phủ Cam - Nơi kiến trúc hiện đại hòa nhịp cùng hơi thở tâm linh xứ Huế.**
 ![Nhà thờ Phủ Cam - Hình 4](./content/images/2. Thiên Chúa Giáo/7. Nhà Thờ Phủ Cam - Huế/img-04.jpg)

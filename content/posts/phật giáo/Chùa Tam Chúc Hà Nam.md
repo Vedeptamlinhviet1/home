@@ -8,11 +8,15 @@ Tọa lạc tại vùng đất sơn thủy hữu tình, Chùa Tam Chúc là sự
 - Hồ Tam Chúc: Mặt hồ mênh mông với 6 hòn núi như những đóa sen nổi.
 - Núi Thất Tinh: Dãy núi vững chãi bao bọc phía sau, tạo nên thế tựa sơn hướng thủy bền vững.
 
+![Chùa Tam Chúc Hà Nam - Hình 1](./content/images/1. Phật Giáo/8.  Chùa Tam Chúc - Hà Nam/img-01.jpg)
+
 **2. Những báu vật tại chùa**
 
 Chùa Tam Chúc sở hữu những hiện vật mang giá trị văn hóa xuyên quốc gia:
 - Cục đá mặt trăng: Khối đá rơi từ vũ trụ có giá trị lên tới hàng triệu đô la được trưng bày tại chùa.
 - Cây Bồ Đề vĩ đại: Cây bồ đề được chiết từ "Cây Bồ Đề Vĩ Đại Cát Tường" (Jaya Sri Maha Bodhi) ở Sri Lanka - có tuổi thọ hơn 2.250 tuổi.
+
+![Chùa Tam Chúc Hà Nam - Hình 2](./content/images/1. Phật Giáo/8.  Chùa Tam Chúc - Hà Nam/img-02.webp)
 
 **3. Hành trình khám phá**
 
@@ -20,10 +24,14 @@ Chùa Tam Chúc sở hữu những hiện vật mang giá trị văn hóa xuyên
 2. Điện Pháp Chủ & Điện Quan Âm: Nơi lưu giữ hàng ngàn bức tranh đá chạm khắc tinh xảo.
 3. Chinh phục Chùa Ngọc: Vượt qua gần 300 bậc đá để chạm tay vào ngôi chùa làm bằng đá đỏ quý hiếm và ngắm toàn cảnh khu danh thắng từ trên cao.
 
+![Chùa Tam Chúc Hà Nam - Hình 3](./content/images/1. Phật Giáo/8.  Chùa Tam Chúc - Hà Nam/img-03.jpg)
+
 **4. Lưu ý cho du khách**
 
 - Thời gian: Nên dành trọn 1 ngày để tham quan vì diện tích khu di tích rất rộng.
 - Chuẩn bị: Mang theo mũ, nón và kem chống nắng vì quãng đường đi bộ giữa các điện khá thoáng đãng.
 - Tâm thế: Giữ tâm tịnh, không chen lấn và tôn trọng các quy định về bảo tồn di sản đá quý.
+
+![Chùa Tam Chúc Hà Nam - Hình 4](./content/images/1. Phật Giáo/8.  Chùa Tam Chúc - Hà Nam/img-04.jpg)
 
 Chùa Tam Chúc - Nơi vẻ đẹp thiên nhiên và hào quang Phật pháp hòa làm một.

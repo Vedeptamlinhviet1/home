@@ -28,6 +28,5 @@ Du khách đến đây thường để:
 
 ![Nhà thờ Chính Tòa Thanh Hóa - Hình 3](./content/images/2. Thiên Chúa Giáo/5.  Nhà Thờ Chính Tòa Thanh Hóa/img-03.jpg)
 
-*Nhà thờ Chính tòa Thanh Hóa - Nơi vẻ đẹp kiến trúc hòa quyện cùng sự tĩnh lặng của tâm hồn.*
-
+**Nhà thờ Chính tòa Thanh Hóa - Nơi vẻ đẹp kiến trúc hòa quyện cùng sự tĩnh lặng của tâm hồn.**
 ![Nhà thờ Chính Tòa Thanh Hóa - Hình 4](./content/images/2. Thiên Chúa Giáo/5.  Nhà Thờ Chính Tòa Thanh Hóa/img-04.jpg)

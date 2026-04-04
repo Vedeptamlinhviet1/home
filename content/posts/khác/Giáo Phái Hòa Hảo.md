@@ -32,11 +32,11 @@ Triết lý của đạo Hòa Hảo xoay quanh việc báo đáp bốn ơn nặn
 * **Sống giản dị:** Người tín đồ giữ gìn sự khiêm tốn trong ăn mặc và giao tiếp.
 * **Hoạt động xã hội:** Hình ảnh những nồi cháo từ thiện tại bệnh viện, những cây cầu bê tông tự xây hay những chuyến xe chuyển bệnh miễn phí đã trở thành "thương hiệu" nhân ái của người dân theo đạo Hòa Hảo.
 
-> **Triết lý chủ đạo:** *"Tu cầu gia đạo vuông tròn / Chồng hòa vợ thuận cháu con thảo hiền."* Việc tu hành bắt đầu ngay từ việc làm tròn bổn phận trong gia đình trước khi hướng ra xã hội.
+> **Triết lý chủ đạo:** **"Tu cầu gia đạo vuông tròn / Chồng hòa vợ thuận cháu con thảo hiền."** Việc tu hành bắt đầu ngay từ việc làm tròn bổn phận trong gia đình trước khi hướng ra xã hội.
 
 ![Đạo Hòa Hảo: Triết Lý "Tu Nhân Học Phật" Giữa Lòng Sông Nước Nam Bộ - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-04.jpg)
 
 ## Lời Kết
 Phật giáo Hòa Hảo là minh chứng cho sự kết hợp nhuần nhuyễn giữa tư tưởng Phật giáo và đạo lý "Uống nước nhớ nguồn" của dân tộc Việt Nam. Một tôn giáo không cần những hình thức phô trương nhưng lại có sức sống bền bỉ nhờ bám rễ sâu vào lòng nhân ái và trách nhiệm với cuộc đời.
 
-*Ghi chú: Nội dung phù hợp cho các chuyên mục Văn hóa miền Tây, Tôn giáo Việt Nam.*
+**Ghi chú: Nội dung phù hợp cho các chuyên mục Văn hóa miền Tây, Tôn giáo Việt Nam.**

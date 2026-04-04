@@ -26,6 +26,5 @@ Nhà thờ Cao Xá mang tên gọi của một vùng đất cổ tại Hưng Yê
 
 ![Nhà thờ Cao Xá Tây Ninh - Hình 3](./content/images/2. Thiên Chúa Giáo/9. Nhà Thờ Cao Xá Tây Ninh/img-03.jpg)
 
-*Nhà thờ Cao Xá - Nét kiến trúc phương Tây bình yên trên vùng đất nắng gió Tây Ninh.*
-
+**Nhà thờ Cao Xá - Nét kiến trúc phương Tây bình yên trên vùng đất nắng gió Tây Ninh.**
 ![Nhà thờ Cao Xá Tây Ninh - Hình 4](./content/images/2. Thiên Chúa Giáo/9. Nhà Thờ Cao Xá Tây Ninh/img-04.jpg)

@@ -28,4 +28,4 @@ Sở Kiện là một trong bốn **Vương cung thánh đường** (Basilica) t
 
 ![Nhà thờ Sở Kiện - Hình 4](./content/images/2. Thiên Chúa Giáo/3.  Nhà Thờ Sở Kiện/img-04.jpg)
 
-*Nhà thờ Sở Kiện - Nét cổ kính phương Tây giữa lòng làng quê Việt.*
+**Nhà thờ Sở Kiện - Nét cổ kính phương Tây giữa lòng làng quê Việt.**
