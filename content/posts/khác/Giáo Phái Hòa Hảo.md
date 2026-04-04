@@ -6,6 +6,8 @@ Ra đời tại làng Hòa Hảo (An Giang) vào năm 1939, Phật giáo Hòa H�
 
 Khác với nhiều tôn giáo chú trọng vào sự lộng lẫy của đền đài, đạo Hòa Hảo đề cao sự tu hành tại gia và sự thanh tịnh trong tâm hồn.
 
+![Đạo Hòa Hảo: Triết Lý "Tu Nhân Học Phật" Giữa Lòng Sông Nước Nam Bộ - Hình 1](./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-01.jpg)
+
 * **Không chùa chiền nguy nga:** Tín đồ chủ yếu thờ cúng tại nhà với tấm **trần điều** (vải màu đỏ) tượng trưng cho sự hòa hiệp và lòng từ bi.
 * **Lễ vật giản đơn:** Chỉ dùng hoa tươi, nước sạch và nén hương. Không dùng đồ mặn, không đốt vàng mã, không bói toán.
 * **Tu hành tại gia:** Người tín đồ vẫn canh tác, làm lụng, giữ gìn đạo hạnh ngay trong đời sống thường nhật chứ không nhất thiết phải rời xa trần thế.
@@ -13,6 +15,8 @@ Khác với nhiều tôn giáo chú trọng vào sự lộng lẫy của đền 
 ## 2. Tứ Đại Trọng Ân: Cốt Lõi Của Việc Tu Nhân
 
 Triết lý của đạo Hòa Hảo xoay quanh việc báo đáp bốn ơn nặng (**Tứ ân**). Đây chính là sợi dây liên kết giữa cá nhân với cộng đồng và lịch sử dân tộc:
+
+![Đạo Hòa Hảo: Triết Lý "Tu Nhân Học Phật" Giữa Lòng Sông Nước Nam Bộ - Hình 2](./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-02.jpg)
 
 - **Ân Tổ tiên Cha mẹ**: Lòng biết ơn công lao sinh thành, dưỡng dục và truyền thống gia đình.
 - **Ân Đất nước**: Trách nhiệm bảo vệ, xây dựng quê hương và ghi nhớ công ơn các bậc tiền nhân giữ nước.
@@ -23,10 +27,14 @@ Triết lý của đạo Hòa Hảo xoay quanh việc báo đáp bốn ơn nặn
 
 Đạo Hòa Hảo không chỉ là lý thuyết, mà còn hiện hữu sinh động qua các hoạt động cộng đồng dọc theo vùng sông nước Cửu Long:
 
+![Đạo Hòa Hảo: Triết Lý "Tu Nhân Học Phật" Giữa Lòng Sông Nước Nam Bộ - Hình 3](./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-03.jpg)
+
 * **Sống giản dị:** Người tín đồ giữ gìn sự khiêm tốn trong ăn mặc và giao tiếp.
 * **Hoạt động xã hội:** Hình ảnh những nồi cháo từ thiện tại bệnh viện, những cây cầu bê tông tự xây hay những chuyến xe chuyển bệnh miễn phí đã trở thành "thương hiệu" nhân ái của người dân theo đạo Hòa Hảo.
 
 > **Triết lý chủ đạo:** *"Tu cầu gia đạo vuông tròn / Chồng hòa vợ thuận cháu con thảo hiền."* Việc tu hành bắt đầu ngay từ việc làm tròn bổn phận trong gia đình trước khi hướng ra xã hội.
+
+![Đạo Hòa Hảo: Triết Lý "Tu Nhân Học Phật" Giữa Lòng Sông Nước Nam Bộ - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-04.jpg)
 
 ## Lời Kết
 Phật giáo Hòa Hảo là minh chứng cho sự kết hợp nhuần nhuyễn giữa tư tưởng Phật giáo và đạo lý "Uống nước nhớ nguồn" của dân tộc Việt Nam. Một tôn giáo không cần những hình thức phô trương nhưng lại có sức sống bền bỉ nhờ bám rễ sâu vào lòng nhân ái và trách nhiệm với cuộc đời.

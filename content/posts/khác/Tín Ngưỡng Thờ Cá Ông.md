@@ -9,12 +9,16 @@ Trong tâm thức người đi biển, Cá Ông không phải là một loài đ
 * **Sự tôn kính tuyệt đối:** Ngư dân gọi cá voi bằng những danh xưng thành kính như "Đức Ngài", "Ông Nam Hải", "Ngọc Lân Nam Hải".
 * **Mối nhân duyên đặc biệt:** Người ta tin rằng cá voi chọn bờ để "lụy" (dạt vào bờ khi qua đời) là một đặc ân dành cho làng chài đó. Người đầu tiên phát hiện "Ông lụy" sẽ có vinh dự được làm "con trưởng", chịu tang Ông như chịu tang cha mẹ mình.
 
+![Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương - Hình 1](./content/images/3. Các tín ngưỡng tôn giáo khác/5. Tín Ngưỡng Thờ Cá Ông/img-01.webp)
+
 ## 2. Tục Lễ Thờ Bộ Xương Và Lăng Ông
 
 Khác với các tín ngưỡng khác, thờ Cá Ông gắn liền với những di tích vật thể sống động là các **Lăng Ông**  nơi lưu giữ bộ xương cốt của "Đức Ngài".
 
 * **Nghĩa trang Cá Ông:** Nhiều vùng biển có những khu nghĩa trang riêng biệt dành cho Cá Ông, nơi các bộ cốt được mai táng cẩn thận trước khi được "bốc" về thờ tại Lăng sau vài năm.
 * **Cấu trúc Lăng:** Lăng Ông thường được xây dựng trang nghiêm, hướng ra biển. Bộ xương cá voi được bảo tồn như một báu vật thiêng liêng, là minh chứng cho sự hiện diện bảo hộ của thần linh đối với dân làng.
+
+![Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương - Hình 2](./content/images/3. Các tín ngưỡng tôn giáo khác/5. Tín Ngưỡng Thờ Cá Ông/img-02.jpg)
 
 ## 3. Lễ Hội Cầu Ngư: Bản Hòa Ca Của Biển
 
@@ -24,6 +28,8 @@ Hàng năm, vào mùa đánh bắt, các làng chài lại rộn ràng tổ ch�
 - **Tế lễ tại Lăng**: Các bậc cao niên đọc văn tế, dâng trà rượu. | Cầu mong mưa thuận gió hòa, tôm cá đầy khoang.
 - **Phần Hội**: Hát bả trạo (chèo chèo), đua ghe, trò chơi dân gian. | Tạo sự gắn kết cộng đồng và cổ vũ tinh thần ra khơi.
 
+![Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương - Hình 3](./content/images/3. Các tín ngưỡng tôn giáo khác/5. Tín Ngưỡng Thờ Cá Ông/img-03.jpg)
+
 ## 4. Niềm Tin Trước Sóng Gió Đại Dương
 
 Tín ngưỡng thờ Cá Ông không chỉ là câu chuyện tâm linh, mà còn là một **triết lý nhân sinh** về sự cộng sinh giữa con người và thiên nhiên:
@@ -31,6 +37,8 @@ Tín ngưỡng thờ Cá Ông không chỉ là câu chuyện tâm linh, mà còn
 1. **Lòng nhân ái:** Niềm tin về một vị thần cứu người giúp ngư dân luôn giữ vững tinh thần tương trợ lẫn nhau khi gặp nạn trên biển.
 2. **Sự can trường:** Có "Đức Ngài" bên cạnh, những người con của biển thêm vững tay lái, tự tin vươn khơi bám biển, khẳng định chủ quyền biển đảo quê hương.
 3. **Ý thức bảo tồn:** Việc thờ cúng Cá Ông gián tiếp giáo dục cộng đồng về việc bảo vệ các loài sinh vật biển và môi trường đại dương.
+
+![Tín Ngưỡng Thờ Cá Ông: Thần Hộ Mệnh Giữa Trùng Khơi Đại Dương - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/5. Tín Ngưỡng Thờ Cá Ông/img-04.jpg)
 
 > **Thông điệp:** *"Biển bạc đồng xanh, nhờ ơn Đức Ngài"*. Tín ngưỡng thờ Cá Ông là sợi dây tâm linh thắt chặt tình yêu biển đảo và lòng biết ơn thiên nhiên sâu sắc của người Việt.
 

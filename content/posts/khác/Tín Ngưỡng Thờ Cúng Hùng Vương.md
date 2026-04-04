@@ -6,6 +6,8 @@ Trong tâm thức của mỗi người Việt, dù ở bất cứ nơi đâu, ha
 
 Việt Nam là một trong số ít các quốc gia trên thế giới có ngày Quốc giỗ chung cho toàn dân tộc. Điều này không chỉ đơn thuần là một nghi lễ tôn giáo mà còn mang ý nghĩa chính trị - xã hội sâu sắc:
 
+![Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết "Đồng Bào" Từ Đền Hùng - Hình 1](./content/images/3. Các tín ngưỡng tôn giáo khác/4. Tín ngưỡng Thờ Cúng Hùng Vương/img-01.jpg)
+
 * **Sự thống nhất về nguồn cội:** Ngày mùng 10 tháng 3 âm lịch hàng năm trở thành điểm hẹn tâm linh, nơi mọi người dân Việt Nam, không phân biệt vùng miền, tôn giáo, đều hướng về một "Người Cha" chung – Đức Quốc Tổ Hùng Vương.
 * **Biểu tượng của quốc gia - dân tộc:** Việc thờ cúng một ông Tổ chung giúp củng cố ý thức về tính thống nhất của quốc gia, tạo nên sức mạnh nội sinh giúp dân tộc vượt qua bao thăng trầm lịch sử.
 * **Giá trị được UNESCO công nhận:** Đây là di sản đầu tiên ở loại hình tín ngưỡng của Việt Nam được vinh danh, khẳng định tầm quan trọng của việc tôn thờ tổ tiên trong việc gắn kết cộng đồng.
@@ -14,8 +16,12 @@ Việt Nam là một trong số ít các quốc gia trên thế giới có ngày
 
 Hai chữ **"Đồng bào"** (cùng chung bọc trứng) bắt nguồn từ truyền thuyết Lạc Long Quân và Âu Cơ. Từ đỉnh núi Nghĩa Lĩnh, sợi dây liên kết này đã tỏa đi khắp mọi miền:
 
+![Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết "Đồng Bào" Từ Đền Hùng - Hình 2](./content/images/3. Các tín ngưỡng tôn giáo khác/4. Tín ngưỡng Thờ Cúng Hùng Vương/img-02.jpg)
+
 * **Tình máu mủ ruột rà:** Niềm tin rằng tất cả người Việt đều là anh em trong cùng một bọc trứng đã tạo nên sự khoan dung, đùm bọc lẫn nhau trong hoạn nạn.
 * **Sức mạnh đại đoàn kết:** Tín ngưỡng này là "chất keo" đặc biệt, biến những cá nhân riêng lẻ thành một khối thống nhất, tạo nên bản sắc văn hóa Việt Nam không thể hòa tan.
+
+![Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết "Đồng Bào" Từ Đền Hùng - Hình 3](./content/images/3. Các tín ngưỡng tôn giáo khác/4. Tín ngưỡng Thờ Cúng Hùng Vương/img-03.jpg)
 
 ## 3. "Dù ai đi ngược về xuôi..." – Lời nhắc nhở về Nguồn Cội
 
@@ -24,6 +30,8 @@ Hai chữ **"Đồng bào"** (cùng chung bọc trứng) bắt nguồn từ truy
 1. **Ghi nhớ lịch sử:** Nhắc nhở về công lao dựng nước của các vua Hùng và giữ nước của các bậc tiền nhân.
 2. **Hướng về tương lai:** Từ niềm tự hào về quá khứ, mỗi người dân có thêm động lực để cống hiến, làm rạng danh dòng máu "Con Rồng Cháu Tiên".
 3. **Bảo tồn văn hóa:** Các hoạt động rước kiệu, dâng hương, bánh chưng bánh giầy... là những "bảo tàng sống" giữ gìn hồn cốt dân tộc giữa dòng chảy hiện đại.
+
+![Tín ngưỡng Thờ Cúng Hùng Vương: Sợi Dây Liên Kết "Đồng Bào" Từ Đền Hùng - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/4. Tín ngưỡng Thờ Cúng Hùng Vương/img-04.jpg)
 
 > **Câu ca dao bất hủ:**
 > *"Dù ai đi ngược về xuôi*

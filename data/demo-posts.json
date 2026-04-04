@@ -247,7 +247,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-16T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1519817914152-22f90e69f6ed?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/9. Nhà Thờ Cao Xá Tây Ninh/img-01.jpg",
     "location": {
       "name": "Nhà thờ Giáo xứ Cao Xá, Tây Ninh",
       "lat": 11.3140969,
@@ -263,7 +263,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-17T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/5.  Nhà Thờ Chính Tòa Thanh Hóa/img-01.jpg",
     "location": {
       "name": "Nhà thờ Chính tòa Thanh Hóa",
       "lat": 19.8138667,
@@ -279,7 +279,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-18T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/6. Nhà Thờ Chính Tòa Xã Đoài/img-01.jpg",
     "location": {
       "name": "Nhà thờ Chính tòa Xã Đoài, Nghệ An",
       "lat": 18.8237,
@@ -295,7 +295,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-19T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1520637836862-4d197d17c90a?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/8. Nhà Thờ Con Gà Đà Nẵng/img-01.webp",
     "location": {
       "name": "Nhà thờ Chính tòa Đà Nẵng (Nhà thờ Con Gà)",
       "lat": 16.0666828,
@@ -311,7 +311,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-20T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1454496522488-7a8e488e8606?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/1. Nhà Thờ Đá Sapa/img-01.jpg",
     "location": {
       "name": "Nhà thờ Đá Sa Pa, Lào Cai",
       "lat": 22.336017,
@@ -327,7 +327,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-21T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1529429617124-aee7112e5c1c?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-01.jpg",
     "location": {
       "name": "Nhà thờ Đức Bà Sài Gòn",
       "lat": 10.7797687,
@@ -343,7 +343,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-22T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/2.  Nhà Thờ Lớn Hà Nội/img-01.jpg",
     "location": {
       "name": "Nhà thờ Lớn Hà Nội",
       "lat": 21.0286483,
@@ -359,7 +359,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-23T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1502209524168-aca66493e5f2?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/4. Nhà Thờ Đá Phát Diệm/img-01.jpg",
     "location": {
       "name": "Nhà thờ chính tòa Phát Diệm, Ninh Bình",
       "lat": 20.0930035,
@@ -375,7 +375,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-24T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1495567720989-cebdbdd97913?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/7. Nhà Thờ Phủ Cam - Huế/img-01.jpg",
     "location": {
       "name": "Nhà thờ Phủ Cam, Huế",
       "lat": 16.4526323,
@@ -391,7 +391,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-25T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/2. Thiên Chúa Giáo/3.  Nhà Thờ Sở Kiện/img-01.jpg",
     "location": {
       "name": "Vương cung thánh đường Sở Kiện, Hà Nam",
       "lat": 20.4999012,
@@ -407,7 +407,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-26T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/2. Đạo Cao Đài/img-01.jpg",
     "markdownPath": "./content/posts/khác/Đạo Cao Đài.md",
     "location": {
       "name": "Tòa Thánh Tây Ninh",
@@ -423,7 +423,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-27T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1504439468489-c8920d796a29?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/3. Đạo Hòa Hảo/img-01.jpg",
     "markdownPath": "./content/posts/khác/Giáo Phái Hòa Hảo.md",
     "location": {
       "name": "An Hòa Tự, Phú Tân, An Giang",
@@ -439,7 +439,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-28T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1542810634-71277d95dcbb?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/7. Hồi Giáo (Islam) Của Người Chăm/img-01.jpg",
     "markdownPath": "./content/posts/khác/Hồi Giáo.md",
     "location": {
       "name": "Khu Châu Giang, An Giang",
@@ -455,7 +455,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-29T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1609599006353-e629aaabfeae?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/1. Tín ngưỡng Thờ Mẫu Tam Phủ/img-01.webp",
     "markdownPath": "./content/posts/khác/Thờ Mẫu Tam Phủ.md"
   },
   {
@@ -466,7 +466,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-30T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1477414348463-c0eb7f1359b6?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/10. Tín Ngưỡng Tây Nguyên/img-01.jpg",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng Tây Nguyên.md"
   },
   {
@@ -477,7 +477,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-03-31T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1493558103817-58b2924bce98?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/5. Tín Ngưỡng Thờ Cá Ông/img-01.webp",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cá Ông.md"
   },
   {
@@ -488,7 +488,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-04-01T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1508599589920-14cfa1c1fe4d?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/4. Tín ngưỡng Thờ Cúng Hùng Vương/img-01.jpg",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cúng Hùng Vương.md"
   },
   {
@@ -499,7 +499,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-04-02T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/9. Tín Ngưỡng Thờ Cúng Tổ Tiên/img-01.jpg",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Cúng Tổ Tiên.md"
   },
   {
@@ -510,7 +510,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-04-03T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/8. Tín Ngưỡng Thờ Thành Hoàng Làng/img-01.jpg",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng THờ Thành Hoàng.md"
   },
   {
@@ -521,7 +521,7 @@
     "status": "approved",
     "authorName": "Ban Bien Tap",
     "createdAt": "2026-04-04T08:00:00.000Z",
-    "image": "https://images.unsplash.com/photo-1534531173927-aeb928d54385?auto=format&fit=crop&w=1200&q=80",
+    "image": "./content/images/3. Các tín ngưỡng tôn giáo khác/6. Tín Ngưỡng Thờ Thần Tài - Thổ Địa/img-01.jpg",
     "markdownPath": "./content/posts/khác/Tín Ngưỡng Thờ Thần Tài.md"
   }
 ]

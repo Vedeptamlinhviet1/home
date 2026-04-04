@@ -6,10 +6,14 @@ Trên dải đất hình chữ S, cộng đồng người Chăm tại Ninh Thu�
 
 Dù cùng tôn thờ Allah, nhưng lịch sử và sự giao thoa văn hóa đã chia Hồi giáo của người Chăm thành hai nhánh chính với những đặc trưng riêng biệt:
 
+![Hồi Giáo (Islam) Của Người Chăm: Nét Văn Hóa Trung Đông Giữa Lòng Việt Nam - Hình 1](./content/images/3. Các tín ngưỡng tôn giáo khác/7. Hồi Giáo (Islam) Của Người Chăm/img-01.jpg)
+
 - **Địa bàn**: Tập trung nhiều ở An Giang, Tây Ninh. | Tập trung chủ yếu ở Ninh Thuận, Bình Thuận.
 - **Tính chất**: Giữ nguyên các nguyên tắc Hồi giáo thế giới. | Có sự kết hợp sâu sắc với tín ngưỡng bản địa và chế độ mẫu hệ.
 - **Nghi lễ**: Cầu nguyện 5 lần mỗi ngày, thực hiện tháng chay Ramadan. | Nghi lễ đơn giản hơn, tập trung vào tháng chay Ramawan tại chùa (Thánh đường Bà Ni).
 - **Trang phục**: Nam đội mũ vuông (Kê-pi), nữ quấn khăn Hijab che kín đầu. | Nam quấn khăn có tua rua, trang phục mang đậm nét truyền thống bản địa.
+
+![Hồi Giáo (Islam) Của Người Chăm: Nét Văn Hóa Trung Đông Giữa Lòng Việt Nam - Hình 2](./content/images/3. Các tín ngưỡng tôn giáo khác/7. Hồi Giáo (Islam) Của Người Chăm/img-02.jpg)
 
 ## 2. Kiến Trúc Thánh Đường: Những Mái Vòm Huyền Bí
 
@@ -19,9 +23,13 @@ Thánh đường (Masjid) là trung tâm sinh hoạt của các làng Chăm Isla
 * **Trăng lưỡi liềm và Ngôi sao:** Biểu tượng linh thiêng nhất của Hồi giáo, thường đặt trên đỉnh các mái vòm hoặc tháp canh (Minaret). Trăng lưỡi liềm tượng trưng cho âm lịch Hồi giáo, còn ngôi sao là biểu tượng của sự dẫn đường theo ý nguyện của thượng đế.
 * **Không gian nội thất:** Bên trong thánh đường thường không có tượng thờ mà chỉ có những họa tiết trang trí hình học tinh xảo hoặc các dòng chữ Ả Rập (Calligraphy) trích từ kinh Quran.
 
+![Hồi Giáo (Islam) Của Người Chăm: Nét Văn Hóa Trung Đông Giữa Lòng Việt Nam - Hình 3](./content/images/3. Các tín ngưỡng tôn giáo khác/7. Hồi Giáo (Islam) Của Người Chăm/img-03.jpg)
+
 ## 3. Lối Sống Và Tinh Thần Cộng Đồng
 
 Hồi giáo mang đến cho người Chăm một lối sống kỷ luật nhưng cũng đầy sự gắn kết:
+
+![Hồi Giáo (Islam) Của Người Chăm: Nét Văn Hóa Trung Đông Giữa Lòng Việt Nam - Hình 4](./content/images/3. Các tín ngưỡng tôn giáo khác/7. Hồi Giáo (Islam) Của Người Chăm/img-04.jpg)
 
 1. **Tinh thần bác ái:** Việc chia sẻ thực phẩm và giúp đỡ người nghèo (Zakat) là nghĩa vụ bắt buộc, giúp làng Chăm luôn duy trì sự ổn định và tương trợ.
 2. **Ẩm thực Halal:** Người Chăm Islam tuân thủ nghiêm ngặt quy tắc thực phẩm Halal (không ăn thịt lợn, thịt động vật phải được giết mổ theo đúng nghi thức).

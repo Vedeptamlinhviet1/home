@@ -2,6 +2,8 @@
 
 Sừng sững giữa trung tâm Quận 1, **Nhà thờ Đức Bà** là minh chứng cho tài hoa kiến trúc của người Pháp và là biểu tượng tinh thần không thể thay thế của người dân Sài Gòn.
 
+![Nhà thờ Đức Bà - Hình 1](./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-01.jpg)
+
 **1. Vẻ đẹp vĩnh cửu từ gạch Marseille**
 
 Nhà thờ Đức Bà nổi tiếng với sắc đỏ nồng nàn không phai mờ theo thời gian:
@@ -9,15 +11,21 @@ Nhà thờ Đức Bà nổi tiếng với sắc đỏ nồng nàn không phai m�
 * **Thiết kế không cột:** Không gian lòng nhà thờ được thiết kế thông minh với các vòm cuốn chịu lực, tạo sự thoáng đãng tối đa.
 * **Tháp chuông đôi:** Cao 60,5m, là điểm nhấn uy nghi vươn lên bầu trời thành phố.
 
+![Nhà thờ Đức Bà - Hình 2](./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-02.jpg)
+
 **2. Tượng Đức Mẹ Hòa Bình và Quảng trường**
 
 * **Biểu tượng bình an:** Bức tượng Đức Mẹ bằng đá trắng tại quảng trường là nơi người dân và du khách thường dừng chân để cầu nguyện và tìm kiếm sự thanh thản.
 * **Giao thoa văn hóa:** Nằm cạnh Bưu điện Thành phố, tạo nên một quần thể di sản kiến trúc Pháp đẹp nhất Việt Nam.
+
+![Nhà thờ Đức Bà - Hình 3](./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-03.jpg)
 
 **3. Lưu ý dành cho du khách**
 
 1. **Trùng tu:** Hiện tại nhà thờ đang được đại trùng tu để bảo tồn kiến trúc cổ. Bạn có thể tham quan và chụp ảnh ở khuôn viên quảng trường phía ngoài.
 2. **Trang phục:** Dù tham quan bên ngoài, bạn cũng nên ăn mặc lịch sự để tôn trọng không gian tôn nghiêm của nhà thờ.
 3. **Thời điểm:** Buổi sáng sớm khi phố phường còn yên tĩnh hoặc buổi tối khi đèn đường bật sáng là những lúc nhà thờ mang vẻ đẹp huyền ảo nhất.
+
+![Nhà thờ Đức Bà - Hình 4](./content/images/2. Thiên Chúa Giáo/10. Nhà Thờ Đức Bà Sài Gòn/img-04.jpg)
 
 *Nhà thờ Đức Bà - Trái tim hồng của Sài Gòn qua bao thế kỷ.*

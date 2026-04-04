@@ -154,6 +154,7 @@ function formatPostContent(raw, options = {}) {
 
   const renderInline = (text) =>
     escapeHtml(text).replace(/\*\*\s*(.+?)\s*\*\*/g, "<strong>$1</strong>");
+  const safeImageSrc = (src) => encodeURI(String(src || "").trim());
   const postTitleKey = toComparableText(options.postTitle);
 
   const blocks = normalized
@@ -179,6 +180,16 @@ function formatPostContent(raw, options = {}) {
       return `<h3>${escapeHtml(headingText)}</h3>`;
     }
 
+    // Support markdown images inserted into article body.
+    if (lines.length === 1 && /^!\[[^\]]*\]\([^\)]+\)$/.test(lines[0])) {
+      const imageMatch = lines[0].match(/^!\[([^\]]*)\]\(([^\)]+)\)$/);
+      if (imageMatch) {
+        const alt = imageMatch[1].trim() || "Hinh minh hoa";
+        const src = safeImageSrc(imageMatch[2]);
+        return `<figure><img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}" loading="lazy" /><figcaption>${escapeHtml(alt)}</figcaption></figure>`;
+      }
+    }
+
     // Treat single-line numbered section titles (e.g. "1. Dấu mốc...") as headings.
     if (lines.length === 1 && /^\d+\.\s+/.test(lines[0])) {
       const headingText = lines[0].replace(/^\d+\.\s+/, "");
@@ -189,8 +200,8 @@ function formatPostContent(raw, options = {}) {
       return "";
     }
 
-    if (lines.every((line) => /^\*\s+/.test(line))) {
-      const items = lines.map((line) => `<li>${renderInline(line.replace(/^\*\s+/, ""))}</li>`).join("");
+    if (lines.every((line) => /^[\*-]\s+/.test(line))) {
+      const items = lines.map((line) => `<li>${renderInline(line.replace(/^[\*-]\s+/, ""))}</li>`).join("");
       return `<ul>${items}</ul>`;
     }
 
@@ -958,7 +969,6 @@ function renderLogin() {
   appEl.innerHTML = `
     <section class="panel">
       <h2 class="section-title">Đăng nhập thành viên</h2>
-      <p class="lead">Tài khoản demo admin: <strong>admin@viettam.local / 123456</strong></p>
       <form id="login-form">
         <label>Email
           <input type="email" name="email" required />
