@@ -372,6 +372,146 @@ main {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.library-categories-panel {
+  padding: clamp(14px, 2vw, 22px);
+}
+
+.library-category-grid {
+  position: relative;
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+  padding: 12px;
+  min-height: min(72vh, 720px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.library-category-grid::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: #f6f2e9;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 3;
+}
+
+.library-category-grid.has-expanded-card::after {
+  opacity: 1;
+}
+
+.library-category-card {
+  display: grid;
+  gap: 10px;
+  min-height: 300px;
+  flex: 1 1 0;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid #d8d2c4;
+  text-decoration: none;
+  color: #1f211f;
+  background: linear-gradient(165deg, #fffdfa 0%, #f7f3ea 100%);
+  background-color: #fbf8f1;
+  box-shadow: 0 8px 16px rgba(16, 24, 19, 0.08);
+  position: relative;
+  isolation: isolate;
+  z-index: 2;
+  transform: scale(1);
+  transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease, flex-grow 0.34s ease, opacity 0.28s ease;
+  transform-origin: center;
+}
+
+.library-category-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: inherit;
+  z-index: -1;
+}
+
+.library-category-grid.has-expanded-card .library-category-card.is-hidden {
+  flex-grow: 0.45;
+  opacity: 0;
+  filter: saturate(0.78);
+  pointer-events: none;
+}
+
+.library-category-card.is-expanded {
+  position: absolute;
+  inset: 12px;
+  flex-grow: 1;
+  transform: scale(1);
+  opacity: 1;
+  filter: none;
+  z-index: 6;
+  pointer-events: auto;
+  background: #fdfbf5;
+  border-color: #9cad87;
+  box-shadow: 0 24px 40px rgba(20, 30, 22, 0.22);
+}
+
+.library-category-kicker {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.74rem;
+  font-weight: 800;
+  color: #4b5b3f;
+}
+
+.library-category-card h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.28rem;
+  line-height: 1.25;
+}
+
+.library-category-summary {
+  margin: 0;
+  color: #4f544c;
+}
+
+.library-category-detail {
+  margin: 0;
+  color: #2f342d;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.24s ease, max-height 0.24s ease, transform 0.24s ease;
+}
+
+.library-category-card.is-expanded .library-category-detail {
+  opacity: 1;
+  max-height: min(58vh, 600px);
+  overflow-y: auto;
+  padding-right: 4px;
+  transform: translateY(0);
+}
+
+.library-category-cta {
+  margin-top: auto;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #334829;
+}
+
+.library-buddhist {
+  background: linear-gradient(160deg, #fffdf8 0%, #efe8d6 100%);
+}
+
+.library-catholic {
+  background: linear-gradient(160deg, #fdfdf8 0%, #e7efde 100%);
+}
+
+.library-folk {
+  background: linear-gradient(160deg, #fffcf7 0%, #f1e7dd 100%);
+}
+
 .card {
   position: relative;
   overflow: hidden;
@@ -981,6 +1121,31 @@ th {
   .grid.cols-3,
   .grid.cols-2 {
     grid-template-columns: 1fr;
+  }
+
+  .library-category-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    min-height: auto;
+    overflow: visible;
+  }
+
+  .library-category-grid::after {
+    display: none;
+  }
+
+  .library-category-card {
+    position: relative;
+    min-height: auto;
+    opacity: 1;
+    filter: none;
+  }
+
+  .library-category-detail {
+    opacity: 1;
+    max-height: 240px;
+    transform: translateY(0);
   }
 
   .hero-banner {

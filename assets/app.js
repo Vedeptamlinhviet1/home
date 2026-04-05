@@ -545,23 +545,71 @@ function setActiveNav(route) {
 
 function renderLibrary() {
   appEl.innerHTML = `
-    <section class="hero-banner">
-      <div class="hero-overlay">
-        <h2>Thư viện tôn giáo</h2>
-        <p>Khám phá ba truyền thống tôn giáo chính tại Việt Nam qua những bài viết chuyên sâu.</p>
-      </div>
-    </section>
+    <section class="panel library-categories-panel">
+      <div class="library-category-grid">
+        <a class="library-category-card library-buddhist" href="#category/phat-giao">
+          <p class="library-category-kicker">Dấu ấn Phật giáo</p>
+          <h3>Chùa cổ và trí tuệ nhập thế</h3>
+          <p class="library-category-summary">Thiền quán, từ bi và hành trình an trú giữa đời sống hiện đại.</p>
+          <p class="library-category-detail">Theo dấu hành trình hơn 2.000 năm của Phật giáo Việt Nam qua lịch sử, kiến trúc chùa Việt, các thiền phái và ảnh hưởng sâu đậm trong văn hóa dân tộc.</p>
+          <span class="library-category-cta">Xem danh sách bài viết →</span>
+        </a>
 
-    <section class="panel">
-      <h3 class="section-title">Chọn danh mục</h3>
-      <p class="lead">Tìm hiểu về các truyền thống tôn giáo và các địa điểm tâm linh tại Việt Nam.</p>
-      <div class="grid cols-3">
-        <article class="card"><div class="card-body"><h3>Dấu ấn Phật giáo</h3><p>Chùa cổ, thiền quán, tư tưởng vô ngã và hành trình nội tâm.</p><a class="button-link button-primary" href="#category/phat-giao">Truy cập</a></div></article>
-        <article class="card"><div class="card-body"><h3>Thiên Chúa giáo</h3><p>Kiến trúc nhà thờ, phục vụ cộng đồng và giá trị nhân ái.</p><a class="button-link button-primary" href="#category/thien-chua-giao">Truy cập</a></div></article>
-        <article class="card"><div class="card-body"><h3>Tín ngưỡng và tôn giáo khác</h3><p>Thờ Mẫu, đình làng, đạo giáo và những góc nhìn liên văn hóa.</p><a class="button-link button-primary" href="#category/khac">Truy cập</a></div></article>
+        <a class="library-category-card library-catholic" href="#category/thien-chua-giao">
+          <p class="library-category-kicker">Thiên Chúa giáo</p>
+          <h3>Nhà thờ, phụng vụ và phục vụ cộng đồng</h3>
+          <p class="library-category-summary">Kiến trúc thánh đường và đời sống đức tin trong dòng chảy Việt Nam.</p>
+          <p class="library-category-detail">Khám phá lịch sử hội nhập, nét đẹp phụng vụ, các công trình nhà thờ tiêu biểu và những giá trị bác ái góp phần làm phong phú đời sống tinh thần xã hội.</p>
+          <span class="library-category-cta">Xem danh sách bài viết →</span>
+        </a>
+
+        <a class="library-category-card library-folk" href="#category/khac">
+          <p class="library-category-kicker">Tín ngưỡng và tôn giáo khác</p>
+          <h3>Bản địa, giao thoa và ký ức cộng đồng</h3>
+          <p class="library-category-summary">Thờ Mẫu, đình làng và những thực hành tâm linh dân gian sống động.</p>
+          <p class="library-category-detail">Đi sâu vào hệ thống tín ngưỡng bản địa, nghi lễ dân gian và các hình thức giao thoa tôn giáo thể hiện tinh thần cởi mở, bao dung của người Việt.</p>
+          <span class="library-category-cta">Xem danh sách bài viết →</span>
+        </a>
       </div>
     </section>
   `;
+
+  setupLibraryCategoryCards();
+}
+
+function setupLibraryCategoryCards() {
+  const grid = document.querySelector(".library-category-grid");
+  if (!grid) return;
+
+  const cards = Array.from(grid.querySelectorAll(".library-category-card"));
+  if (!cards.length) return;
+
+  const clearExpandedState = () => {
+    grid.classList.remove("has-expanded-card");
+    cards.forEach((card) => {
+      card.classList.remove("is-expanded", "is-hidden");
+    });
+  };
+
+  const setExpandedCard = (activeCard) => {
+    grid.classList.add("has-expanded-card");
+    cards.forEach((card) => {
+      card.classList.toggle("is-expanded", card === activeCard);
+      card.classList.toggle("is-hidden", card !== activeCard);
+    });
+  };
+
+  cards.forEach((card) => {
+    card.addEventListener("mouseenter", () => setExpandedCard(card));
+    card.addEventListener("focus", () => setExpandedCard(card));
+  });
+
+  grid.addEventListener("mouseleave", clearExpandedState);
+  grid.addEventListener("focusout", (event) => {
+    if (!grid.contains(event.relatedTarget)) {
+      clearExpandedState();
+    }
+  });
 }
 
 function renderIntroduction() {
