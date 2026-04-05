@@ -567,13 +567,33 @@ function renderLibrary() {
 function renderIntroduction() {
   appEl.innerHTML = `
     <section class="panel">
-      <h2 class="section-title">Giới thiệu</h2>
+      <h2 class="section-title">KHÁM PHÁ CHIỀU SÂU TÂM LINH: NƠI GIAO THOA CỦA DI SẢN VÀ TÂM HỒN</h2>
       <article class="content-article">
-        <h3>Tâm linh Việt - Được Viết Từ Tim</h3>
-        <p>Vẻ đẹp tâm linh Việt là một khoảng không gian để khám phá và chia sẻ những điều sâu sắc về tâm linh, tôn giáo và văn hóa Việt Nam.</p>
-        <p><em>Nội dung đang được cập nhật...</em></p>
+        <p class="lead"><strong>Chào mừng bạn đến với hành trình đi tìm những giá trị tĩnh lặng giữa nhịp sống hối hả.</strong></p>
+        
+        <p>Việt Nam không chỉ là một dải đất hình chữ S với những danh lam thắng cảnh hùng vĩ, mà còn là nơi lưu giữ một kho tàng tâm linh đồ sộ, nơi tiếng chuông chùa thanh tịnh hòa quyện cùng tiếng chuông nhà thờ trầm mặc, nơi những triết lý cao siêu của nhân loại gặp gỡ lòng hiếu nghĩa mộc mạc của đạo thờ cúng tổ tiên.</p>
+
+        <h3>Sứ mệnh của chúng tôi</h3>
+        <p>"Bản đồ tâm linh Việt" ra đời với tâm thế của một người kể chuyện di sản trong kỷ nguyên số. Chúng tôi mang sứ mệnh hợp nhất những mảnh ghép tinh hoa của Phật giáo, Công giáo cùng các đức tin bản địa thuần khiết thành một bức tranh toàn cảnh sống động. Không chỉ dừng lại ở việc phục dựng dòng chảy lịch sử, chúng tôi khát khao đánh thức vẻ đẹp của lòng bao dung và tinh thần hòa hợp tôn giáo, sợi chỉ đỏ vô hình nhưng bền bỉ đã kết nối tâm hồn người Việt suốt hàng ngàn năm qua.</p>
+
+        <h3>Bạn sẽ tìm thấy gì tại đây?</h3>
+        <ul>
+          <li><strong>Dòng chảy Lịch sử:</strong> Những cột mốc vàng son và những thăng trầm của các tôn giáo tại Việt Nam.</li>
+          <li><strong>Di sản Kiến trúc:</strong> Chiêm ngưỡng vẻ đẹp của những ngôi chùa cổ, nhà thờ đá hay tòa thánh nguy nga qua lăng kính văn hóa.</li>
+          <li><strong>Triết lý & Cuộc sống:</strong> Những bài học về sự bình an, lòng trắc ẩn và cách áp dụng trí tuệ tâm linh vào đời sống hiện đại.</li>
+          <li><strong>Câu chuyện Di sản:</strong> Hành trình số hóa và bảo tồn những giá trị văn hóa lịch sử đang dần bị mai một.</li>
+          <li><strong>Lịch Lễ hội & Hành hương:</strong> Điểm hẹn của những sắc màu văn hóa. Cập nhật thông tin về các ngày lễ trọng đại, các lễ hội dân gian truyền thống và những hành trình hành hương tìm về đất thánh trên khắp ba miền.</li>
+        </ul>
+
+        <blockquote>
+          <p><em>"Tâm linh không phải là điều gì đó xa rời thực tế, mà chính là bến đỗ bình yên để mỗi người tìm lại chính mình."</em></p>
+        </blockquote>
+
+        <p>Hãy cùng chúng tôi lật mở từng trang sử, bước qua từng ngưỡng cửa của những ngôi đền đài, để thấy rằng: Trong chiều sâu của đức tin, chính là vẻ đẹp bất tận của con người Việt Nam.</p>
+
         <div class="actions">
           <a class="button-link button-primary" href="#library">Khám phá thư viện tôn giáo</a>
+          <a class="button-link button-primary" href="#events">Xem lịch lễ hội</a>
         </div>
       </article>
     </section>
