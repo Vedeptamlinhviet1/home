@@ -24,11 +24,17 @@ const appEl = document.getElementById("app");
 const authZoneEl = document.getElementById("auth-zone");
 const navEl = document.getElementById("main-nav");
 const EVENT_CALENDAR_PATH = "./content/event_calendar/events.json";
+const LIBRARY_CATEGORY_INTRO_PATHS = {
+  buddhist: "./content/posts/giới thiệu phật giáo.md",
+  catholic: "./content/posts/giới thiệu thiên chúa giáo.md",
+  folk: "./content/posts/giới thiệu khác.md"
+};
 
 let leafletMap;
 let eventCalendarCache = null;
 let eventCalendarResizeHandler = null;
 let curatedPosts = [];
+let libraryCategoryIntroCache = null;
 
 function uid(prefix = "id") {
   return `${prefix}-${Math.random().toString(36).slice(2, 8)}-${Date.now()}`;
@@ -551,7 +557,7 @@ function renderLibrary() {
           <p class="library-category-kicker">Dấu ấn Phật giáo</p>
           <h3>Chùa cổ và trí tuệ nhập thế</h3>
           <p class="library-category-summary">Thiền quán, từ bi và hành trình an trú giữa đời sống hiện đại.</p>
-          <p class="library-category-detail">Theo dấu hành trình hơn 2.000 năm của Phật giáo Việt Nam qua lịch sử, kiến trúc chùa Việt, các thiền phái và ảnh hưởng sâu đậm trong văn hóa dân tộc.</p>
+          <div class="library-category-detail" data-library-key="buddhist">Đang tải nội dung...</div>
           <span class="library-category-cta">Xem danh sách bài viết →</span>
         </a>
 
@@ -559,7 +565,7 @@ function renderLibrary() {
           <p class="library-category-kicker">Thiên Chúa giáo</p>
           <h3>Nhà thờ, phụng vụ và phục vụ cộng đồng</h3>
           <p class="library-category-summary">Kiến trúc thánh đường và đời sống đức tin trong dòng chảy Việt Nam.</p>
-          <p class="library-category-detail">Khám phá lịch sử hội nhập, nét đẹp phụng vụ, các công trình nhà thờ tiêu biểu và những giá trị bác ái góp phần làm phong phú đời sống tinh thần xã hội.</p>
+          <div class="library-category-detail" data-library-key="catholic">Đang tải nội dung...</div>
           <span class="library-category-cta">Xem danh sách bài viết →</span>
         </a>
 
@@ -567,7 +573,7 @@ function renderLibrary() {
           <p class="library-category-kicker">Tín ngưỡng và tôn giáo khác</p>
           <h3>Bản địa, giao thoa và ký ức cộng đồng</h3>
           <p class="library-category-summary">Thờ Mẫu, đình làng và những thực hành tâm linh dân gian sống động.</p>
-          <p class="library-category-detail">Đi sâu vào hệ thống tín ngưỡng bản địa, nghi lễ dân gian và các hình thức giao thoa tôn giáo thể hiện tinh thần cởi mở, bao dung của người Việt.</p>
+          <div class="library-category-detail" data-library-key="folk">Đang tải nội dung...</div>
           <span class="library-category-cta">Xem danh sách bài viết →</span>
         </a>
       </div>
@@ -575,6 +581,38 @@ function renderLibrary() {
   `;
 
   setupLibraryCategoryCards();
+  hydrateLibraryCategoryDetails();
+}
+
+async function getLibraryCategoryIntros() {
+  if (libraryCategoryIntroCache) return libraryCategoryIntroCache;
+
+  const entries = await Promise.all(
+    Object.entries(LIBRARY_CATEGORY_INTRO_PATHS).map(async ([key, filePath]) => {
+      try {
+        const response = await fetch(encodeURI(filePath));
+        if (!response.ok) throw new Error("Không tải được nội dung.");
+        const markdown = await response.text();
+        return [key, formatPostContent(markdown)];
+      } catch {
+        return [key, "<p>Đang cập nhật nội dung.</p>"];
+      }
+    })
+  );
+
+  libraryCategoryIntroCache = Object.fromEntries(entries);
+  return libraryCategoryIntroCache;
+}
+
+async function hydrateLibraryCategoryDetails() {
+  const details = Array.from(document.querySelectorAll(".library-category-detail[data-library-key]"));
+  if (!details.length) return;
+
+  const intros = await getLibraryCategoryIntros();
+  details.forEach((detailEl) => {
+    const key = detailEl.dataset.libraryKey;
+    detailEl.innerHTML = intros[key] || "<p>Đang cập nhật nội dung.</p>";
+  });
 }
 
 function setupLibraryCategoryCards() {

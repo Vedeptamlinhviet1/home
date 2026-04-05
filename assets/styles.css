@@ -485,6 +485,35 @@ main {
   transition: opacity 0.24s ease, max-height 0.24s ease, transform 0.24s ease;
 }
 
+.library-category-detail > :first-child {
+  margin-top: 0;
+}
+
+.library-category-detail > :last-child {
+  margin-bottom: 0;
+}
+
+.library-category-detail h2,
+.library-category-detail h3,
+.library-category-detail h4 {
+  font-family: var(--font-display);
+  margin: 10px 0 6px;
+  line-height: 1.25;
+}
+
+.library-category-detail p,
+.library-category-detail li,
+.library-category-detail blockquote {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.library-category-detail ul,
+.library-category-detail ol {
+  margin: 6px 0;
+  padding-left: 18px;
+}
+
 .library-category-card.is-expanded .library-category-detail {
   opacity: 1;
   max-height: min(58vh, 600px);
