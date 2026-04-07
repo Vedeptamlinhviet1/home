@@ -822,9 +822,9 @@ function renderHome() {
           </ol>
           <h4>Tính năng nổi bật</h4>
           <ul>
-            <li>Tìm kiếm địa điểm gắn với bài viết.</li>
-            <li>Điều hướng theo nhóm tôn giáo.</li>
-            <li>Kết nối bài viết mới và bình luận.</li>
+            <li><a href="https://eticket.hueworldheritage.org.vn/vedientu">Trung tâm bảo tồn Cố Đô Huế</a></li>
+            <li><a href="https://tonggiaophanhue.org/">Giáo phận Huế.</li>
+            <li><a href="https://nlv.gov.vn/ ">Thư viện Quốc gia (Mục tư liệu Hán Nôm)</li>
           </ul>
         </aside>
       </div>
