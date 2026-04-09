@@ -62,35 +62,30 @@ body {
 }
 
 .brand-block {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
   padding: 14px 18px 10px;
   border-bottom: 1px solid #dddcd1;
   background: linear-gradient(180deg, #fdfcf8 0%, #f6f3ea 100%);
 }
 
+.brand-text {
+  display: grid;
+  gap: 2px;
+  text-align: left;
+}
+
 .logo-mark {
-  width: 48px;
-  height: 48px;
-  margin: 0 auto 6px;
-  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  margin: 0;
+  border-radius: 12px;
   border: 1px solid #cabda8;
-  background:
-    radial-gradient(circle at center, rgba(139, 117, 87, 0.32), transparent 62%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(240, 230, 211, 0.86));
-  position: relative;
-}
-
-.logo-mark::before,
-.logo-mark::after {
-  content: "";
-  position: absolute;
-  inset: 10px;
-  border-radius: 50%;
-  border: 1px solid rgba(139, 117, 87, 0.55);
-}
-
-.logo-mark::after {
-  inset: 16px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 10px rgba(40, 48, 36, 0.12);
 }
 
 .brand-block h1 {
@@ -280,18 +275,60 @@ main {
   border: 1px solid #d7d0c1;
   border-radius: 12px;
   background: #fff;
-  padding: 10px;
+  padding: 0;
+  overflow: hidden;
 }
 
-.region-card h4 {
-  margin: 0 0 8px;
+.region-summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin: 0;
+  padding: 10px 12px;
   font-size: 0.88rem;
+  font-weight: 700;
   color: #384433;
+  background: #f8f5ee;
+}
+
+.region-summary::-webkit-details-marker {
+  display: none;
+}
+
+.region-summary::after {
+  content: "▾";
+  color: #5a6652;
+  font-size: 0.78rem;
+  transition: transform 0.18s ease;
+}
+
+.region-card[open] .region-summary::after {
+  transform: rotate(180deg);
+}
+
+.region-count {
+  min-width: 1.9rem;
+  height: 1.35rem;
+  padding: 0 6px;
+  border-radius: 999px;
+  border: 1px solid #d7d0c1;
+  background: #fff;
+  color: #4e5a48;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.76rem;
 }
 
 .region-list {
   display: grid;
   gap: 6px;
+  padding: 10px;
+  max-height: 260px;
+  overflow-y: auto;
 }
 
 .region-list a,
@@ -530,15 +567,37 @@ main {
 }
 
 .library-buddhist {
-  background: linear-gradient(160deg, #fffdf8 0%, #efe8d6 100%);
+  background:
+    linear-gradient(160deg, rgba(20, 24, 18, 0.56) 0%, rgba(20, 24, 18, 0.28) 100%),
+    url("../content/images/homepage/bud.jpg") center / cover no-repeat;
 }
 
 .library-catholic {
-  background: linear-gradient(160deg, #fdfdf8 0%, #e7efde 100%);
+  background:
+    linear-gradient(160deg, rgba(18, 22, 24, 0.56) 0%, rgba(18, 22, 24, 0.3) 100%),
+    url("../content/images/homepage/jesus.webp") center / cover no-repeat;
 }
 
 .library-folk {
-  background: linear-gradient(160deg, #fffcf7 0%, #f1e7dd 100%);
+  background:
+    linear-gradient(160deg, rgba(27, 22, 16, 0.56) 0%, rgba(27, 22, 16, 0.32) 100%),
+    url("../content/images/homepage/tinnguon.webp") center / cover no-repeat;
+}
+
+.library-buddhist,
+.library-catholic,
+.library-folk {
+  color: #f8f7f3;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.library-buddhist .library-category-kicker,
+.library-catholic .library-category-kicker,
+.library-folk .library-category-kicker,
+.library-buddhist .library-category-cta,
+.library-catholic .library-category-cta,
+.library-folk .library-category-cta {
+  color: #f8f7f3;
 }
 
 .card {
@@ -671,6 +730,28 @@ label {
   border: 1px solid #ddd6c9;
   background: #f7f4ea;
   margin-bottom: 4px;
+}
+
+.podcast-player {
+  margin: 6px 0 10px;
+  padding: 12px;
+  border: 1px solid #ddd6c9;
+  border-radius: 12px;
+  background: #faf7ef;
+  display: grid;
+  gap: 8px;
+}
+
+.podcast-title {
+  margin: 0;
+  color: #4a5047;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.podcast-player audio {
+  width: 100%;
+  display: block;
 }
 
 .post-content {
@@ -1148,6 +1229,15 @@ th {
 
   .site-header {
     border-radius: 16px;
+  }
+
+  .logo-mark {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brand-block {
+    justify-content: flex-start;
   }
 
   .auth-zone {

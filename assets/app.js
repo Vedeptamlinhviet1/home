@@ -30,11 +30,49 @@ const LIBRARY_CATEGORY_INTRO_PATHS = {
   folk: "./content/posts/giới thiệu khác.md"
 };
 
+const PODCAST_AUDIO_PATHS = [
+  "./content/podcast/chùa/chùa AM Tiên.mp3",
+  "./content/podcast/chùa/Núi Bà Đen.mp3",
+  "./content/podcast/chùa/chùa đại tuệ.mp3",
+  "./content/podcast/chùa/Chùa Linh QUang.mp3",
+  "./content/podcast/chùa/Chùa Linh Ứng.mp3",
+  "./content/podcast/chùa/Chùa Một Cột.mp3",
+  "./content/podcast/chùa/Chùa Ông.mp3",
+  "./content/podcast/chùa/chùa tam chúc.mp3",
+  "./content/podcast/chùa/chùa thiên mụ.mp3",
+  "./content/podcast/chùa/chùa thượng.mp3",
+  "./content/podcast/chùa/chùa tiên.mp3",
+  "./content/podcast/chùa/chùa trúc lâm.mp3",
+  "./content/podcast/chùa/chùa vĩnh nghiêm.mp3",
+  "./content/podcast/chùa/chùa hắc y.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ cao xá.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ chính tòa.mp3",
+  "./content/podcast/thiên chúa giáo/chính tòa xã đoài.mp3",
+  "./content/podcast/thiên chúa giáo/Nhà thờ con gà.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ đá.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ đức bà.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ lớn Hà nội.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ đá phát diệm.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ phủ cam.mp3",
+  "./content/podcast/thiên chúa giáo/nhà thờ sở kiện.mp3",
+  "./content/podcast/tín ngưỡng khác/đạo cao đài.mp3",
+  "./content/podcast/tín ngưỡng khác/đạo hòa hảo.mp3",
+  "./content/podcast/tín ngưỡng khác/hồi giáo islam].mp3",
+  "./content/podcast/tín ngưỡng khác/thờ cá ông.mp3",
+  "./content/podcast/tín ngưỡng khác/thờ cúng hùng vương.mp3",
+  "./content/podcast/tín ngưỡng khác/thờ cúng tổ tiên.mp3",
+  "./content/podcast/tín ngưỡng khác/thờ thành hoàng làng.mp3",
+  "./content/podcast/tín ngưỡng khác/thần tài thổ địa.mp3",
+  "./content/podcast/tín ngưỡng khác/tín ngưỡng tây nguyên.mp3",
+  "./content/podcast/tín ngưỡng khác/tín ngưỡng thờ mẫu.mp3"
+];
+
 let leafletMap;
 let eventCalendarCache = null;
 let eventCalendarResizeHandler = null;
 let curatedPosts = [];
 let libraryCategoryIntroCache = null;
+let podcastIndexCache = null;
 
 function uid(prefix = "id") {
   return `${prefix}-${Math.random().toString(36).slice(2, 8)}-${Date.now()}`;
@@ -155,6 +193,74 @@ function toComparableText(input) {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, " ")
     .trim();
+}
+
+function comparableTokens(input) {
+  return toComparableText(input).split(/\s+/).filter(Boolean);
+}
+
+function getPodcastGroupName(post) {
+  if (post?.category === "Dau an Phat giao") return "chùa";
+  if (post?.category === "Thien chua giao") return "thiên chúa giáo";
+  if (post?.category === "Tin nguong va ton giao khac") return "tín ngưỡng khác";
+  return "";
+}
+
+function buildPodcastIndex() {
+  if (podcastIndexCache) return podcastIndexCache;
+
+  podcastIndexCache = PODCAST_AUDIO_PATHS.map((rawPath) => {
+    const path = String(rawPath || "").trim();
+    const cleanedPath = path.replace(/\\/g, "/");
+    const parts = cleanedPath.split("/");
+    const groupName = toComparableText(parts[3] || "");
+    const filename = parts[parts.length - 1] || "";
+    const stem = filename.replace(/\.[^.]+$/, "");
+    const tokens = comparableTokens(stem);
+    return {
+      path: cleanedPath,
+      groupName,
+      stem,
+      tokens
+    };
+  });
+
+  return podcastIndexCache;
+}
+
+function getPodcastPathForPost(post) {
+  if (!post) return null;
+  if (post.podcastPath) return String(post.podcastPath);
+
+  const groupName = toComparableText(getPodcastGroupName(post));
+  const candidates = buildPodcastIndex().filter((item) => item.groupName === groupName);
+  if (!candidates.length) return null;
+
+  const queryParts = [post.title || ""];
+  if (post.markdownPath) {
+    const mdStem = String(post.markdownPath).split("/").pop()?.replace(/\.[^.]+$/, "") || "";
+    queryParts.push(mdStem);
+  }
+  if (post.image) {
+    const imageDir = String(post.image).split("/").slice(-2, -1)[0] || "";
+    queryParts.push(imageDir);
+  }
+
+  const queryTokens = new Set(comparableTokens(queryParts.join(" ")));
+  let best = null;
+  let bestScore = -1;
+
+  candidates.forEach((candidate) => {
+    const overlap = candidate.tokens.reduce((sum, token) => sum + (queryTokens.has(token) ? 1 : 0), 0);
+    const phraseBoost = toComparableText(post.title || "").includes(toComparableText(candidate.stem)) ? 2 : 0;
+    const score = overlap + phraseBoost;
+    if (score > bestScore) {
+      bestScore = score;
+      best = candidate;
+    }
+  });
+
+  return bestScore > 0 ? best.path : null;
 }
 
 function formatPostContent(raw, options = {}) {
@@ -703,33 +809,44 @@ function renderPostCard(post) {
 }
 
 function buildRegionHighlights(posts) {
-  const approvedWithLocation = posts.filter((p) => p.location && Number.isFinite(p.location.lat));
-  const north = approvedWithLocation.filter((p) => p.location.lat >= 18).slice(0, 3);
-  const central = approvedWithLocation.filter((p) => p.location.lat >= 14 && p.location.lat < 18).slice(0, 3);
-  const south = approvedWithLocation.filter((p) => p.location.lat < 14).slice(0, 3);
+  const THANH_HOA_LAT = 20;
+  const PHAN_THIET_LAT = 10.93;
 
-  const renderRegionCard = (title, list, fallbackText) => `
-    <article class="region-card">
-      <h4>${title}</h4>
+  const approvedWithLocation = posts
+    .filter((p) => p.location && Number.isFinite(p.location.lat))
+    .sort((a, b) => b.location.lat - a.location.lat);
+
+  const north = approvedWithLocation.filter((p) => p.location.lat > THANH_HOA_LAT);
+  const central = approvedWithLocation.filter(
+    (p) => p.location.lat <= THANH_HOA_LAT && p.location.lat >= PHAN_THIET_LAT
+  );
+  const south = approvedWithLocation.filter((p) => p.location.lat < PHAN_THIET_LAT);
+
+  const renderRegionCard = (title, list, fallbackText, isOpen = false) => `
+    <details class="region-card" ${isOpen ? "open" : ""}>
+      <summary class="region-summary">
+        <span>${title}</span>
+        <span class="region-count">${list.length}</span>
+      </summary>
       <div class="region-list">
         ${
           list.length
             ? list
                 .map(
-                  (item) =>
-                    `<a href="#post/${item.id}">${escapeHtml(item.location?.name || item.title)}</a>`
+                  (item, index) =>
+                    `<a href="#post/${item.id}">${index + 1}. ${escapeHtml(item.location?.name || item.title)}</a>`
                 )
                 .join("")
             : `<p>${fallbackText}</p>`
         }
       </div>
-    </article>
+    </details>
   `;
 
   return [
-    renderRegionCard("Miền Bắc - Nơi hội tụ ngàn năm", north, "Đang cập nhật địa điểm."),
-    renderRegionCard("Miền Trung - Miền di sản linh thiêng", central, "Đang cập nhật địa điểm."),
-    renderRegionCard("Miền Nam - Sự giao thoa đa dạng", south, "Đang cập nhật địa điểm.")
+    renderRegionCard("Miền Bắc", north, "Đang cập nhật địa điểm.", true),
+    renderRegionCard("Miền Trung ", central, "Đang cập nhật địa điểm."),
+    renderRegionCard("Miền Nam", south, "Đang cập nhật địa điểm.")
   ].join("");
 }
 
@@ -814,13 +931,13 @@ function renderHome() {
           <div id="map"></div>
         </div>
         <aside class="map-insight">
-          <h4>Thư viện kết nối</h4>
+          
           <ol>
             <li>Phật giáo Việt Nam</li>
-            <li>Tôn giáo phương Tây tại Việt Nam</li>
+            <li>Giáo Phận Việt Nam</li>
             <li>Các tín ngưỡng bản địa</li>
           </ol>
-          <h4>Tính năng nổi bật</h4>
+          
           <ul>
             <li><a href="https://eticket.hueworldheritage.org.vn/vedientu">Trung tâm bảo tồn Cố Đô Huế</a></li>
             <li><a href="https://tonggiaophanhue.org/">Giáo phận Huế.</li>
@@ -1028,11 +1145,24 @@ function renderPost(postId) {
   const renderedPostContent = removeFirstContentFigure(
     post.formattedContent || formatPostContent(post.content, { postTitle: post.title })
   );
+  const podcastPath = getPodcastPathForPost(post);
+  const encodedPodcastPath = podcastPath ? encodeURI(podcastPath) : "";
+  const podcastPlayerMarkup = podcastPath
+    ? `
+      <section class="podcast-player" aria-label="Podcast cho bài viết">
+        <p class="podcast-title">Podcast: nghe bài viết trong khi đọc</p>
+        <audio controls preload="none" src="${escapeHtml(encodedPodcastPath)}">
+          Trình duyệt của bạn chưa hỗ trợ phát audio.
+        </audio>
+      </section>
+    `
+    : "";
 
   appEl.innerHTML = `
     <article class="panel">
       <p class="meta">${escapeHtml(formatCategoryLabel(post.category))} · ${formatDate(post.createdAt)} · ${escapeHtml(getAuthorName(post))}</p>
       <h2 class="post-title">${escapeHtml(post.title)}</h2>
+      ${podcastPlayerMarkup}
       ${post.image ? `<img class="post-hero-image" src="${escapeHtml(post.image)}" alt="${escapeHtml(post.title)}" />` : ""}
       <div class="post-content">${renderedPostContent}</div>
       ${
