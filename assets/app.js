@@ -956,9 +956,6 @@ function renderHome() {
             <li><a href="https://phatgiao.org.vn/">Phật giáo Việt Nam</a></li>
             <li><a href="https://giacngo.vn/">Báo</a></li>
             <li><a href="https://thuvienhoasen.org/">Thư viện Phật giáo</a></li>
-
-
-
           </ul>
         </aside>
       </div>
