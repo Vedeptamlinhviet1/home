@@ -810,7 +810,7 @@ function renderPostCard(post) {
 
 function buildRegionHighlights(posts) {
   const THANH_HOA_LAT = 20;
-  const PHAN_THIET_LAT = 10.93;
+  const PHAN_THIET_LAT = 13;
 
   const approvedWithLocation = posts
     .filter((p) => p.location && Number.isFinite(p.location.lat))
