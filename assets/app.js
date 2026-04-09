@@ -953,6 +953,12 @@ function renderHome() {
             <li><a href="https://eticket.hueworldheritage.org.vn/vedientu">Trung tâm bảo tồn Cố Đô Huế</a></li>
             <li><a href="https://tonggiaophanhue.org/">Giáo phận Huế.</li>
             <li><a href="https://nlv.gov.vn/ ">Thư viện Quốc gia (Mục tư liệu Hán Nôm)</li>
+            <li><a href="https://phatgiao.org.vn/">Phật giáo Việt Nam</a></li>
+            <li><a href="https://giacngo.vn/">Báo</a></li>
+            <li><a href="https://thuvienhoasen.org/">Thư viện Phật giáo</a></li>
+
+
+
           </ul>
         </aside>
       </div>
