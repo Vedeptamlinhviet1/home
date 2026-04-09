@@ -862,7 +862,9 @@ function renderHome() {
     <section class="carousel-container">
       <div class="carousel">
         <div class="carousel-slide">
-          <img class="carousel-media" src="./content/images/homepage/home1.jpg" alt="Hình nền trang chủ 1" loading="lazy" />
+          <video class="carousel-media" autoplay muted loop playsinline preload="metadata" aria-label="Video nền trang chủ 1">
+            <source src="./content/images/homepage/home1.mp4" type="video/mp4" />
+          </video>
           <div class="slide-content">
             <p class="slide-kicker">Hành trình về sự an lạc</p>
             <h2>Bản đồ Tâm linh Việt</h2>
