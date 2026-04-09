@@ -331,6 +331,15 @@ main {
   overflow-y: auto;
 }
 
+.region-updating {
+  margin: 0;
+  padding: 8px 10px 10px;
+  font-size: 0.78rem;
+  color: #6a6f67;
+  border-top: 1px dashed #ded8ca;
+  background: #fff;
+}
+
 .region-list a,
 .region-list p {
   margin: 0;

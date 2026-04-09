@@ -840,6 +840,7 @@ function buildRegionHighlights(posts) {
             : `<p>${fallbackText}</p>`
         }
       </div>
+      <p class="region-updating">Đang cập nhật thêm</p>
     </details>
   `;
 
