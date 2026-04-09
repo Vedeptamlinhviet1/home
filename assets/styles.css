@@ -882,44 +882,39 @@ th {
   flex-shrink: 0;
   display: flex;
   align-items: flex-end;
-  background:
-    linear-gradient(0deg, rgba(17, 26, 24, 0.48) 4%, rgba(17, 26, 24, 0.08) 45%, rgba(0, 0, 0, 0) 70%),
-    url("https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&w=1800&q=80") center/cover no-repeat;
+  position: relative;
+  overflow: hidden;
 }
 
-.carousel-slide:nth-child(1) {
-  background-image:
-    linear-gradient(0deg, rgba(17, 26, 24, 0.48) 4%, rgba(17, 26, 24, 0.08) 45%, rgba(0, 0, 0, 0) 70%),
-    url("https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1800&q=80");
+.carousel-slide::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(0deg, rgba(17, 26, 24, 0.56) 6%, rgba(17, 26, 24, 0.12) 46%, rgba(0, 0, 0, 0) 75%);
+  z-index: 1;
+  pointer-events: none;
 }
 
-.carousel-slide:nth-child(2) {
-  background-image:
-    linear-gradient(0deg, rgba(17, 26, 24, 0.48) 4%, rgba(17, 26, 24, 0.08) 45%, rgba(0, 0, 0, 0) 70%),
-    url("https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1800&q=80");
+.carousel-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  z-index: 0;
 }
 
-.carousel-slide:nth-child(3) {
-  background-image:
-    linear-gradient(0deg, rgba(17, 26, 24, 0.48) 4%, rgba(17, 26, 24, 0.08) 45%, rgba(0, 0, 0, 0) 70%),
-    url("https://images.unsplash.com/photo-1506705720897-c6b0b8ef0bbb?auto=format&fit=crop&w=1800&q=80");
-}
-
-.carousel-slide:nth-child(4) {
-  background-image:
-    linear-gradient(0deg, rgba(17, 26, 24, 0.48) 4%, rgba(17, 26, 24, 0.08) 45%, rgba(0, 0, 0, 0) 70%),
-    url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1800&q=80");
-}
-
-.carousel-slide {
-  background-size: cover;
-  background-position: center;
+.carousel-media[poster] {
+  object-position: center;
 }
 
 .slide-content {
   width: min(760px, 100%);
   padding: clamp(24px, 4vw, 48px);
   color: #ffffff;
+  position: relative;
+  z-index: 2;
 }
 
 .slide-kicker {

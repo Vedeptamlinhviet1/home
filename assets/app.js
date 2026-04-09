@@ -861,6 +861,7 @@ function renderHome() {
     <section class="carousel-container">
       <div class="carousel">
         <div class="carousel-slide">
+          <img class="carousel-media" src="./content/images/homepage/home1.jpg" alt="Hình nền trang chủ 1" loading="lazy" />
           <div class="slide-content">
             <p class="slide-kicker">Hành trình về sự an lạc</p>
             <h2>Bản đồ Tâm linh Việt</h2>
@@ -871,6 +872,9 @@ function renderHome() {
           </div>
         </div>
         <div class="carousel-slide">
+          <video class="carousel-media" autoplay muted loop playsinline preload="metadata" aria-label="Video nền trang chủ 2">
+            <source src="./content/images/homepage/home2.mp4" type="video/mp4" />
+          </video>
           <div class="slide-content">
             <p class="slide-kicker">Dấu ấn Phật giáo</p>
             <h2>Chùa cổ và thiền quán</h2>
@@ -881,6 +885,9 @@ function renderHome() {
           </div>
         </div>
         <div class="carousel-slide">
+          <video class="carousel-media" autoplay muted loop playsinline preload="metadata" aria-label="Video nền trang chủ 3">
+            <source src="./content/images/homepage/home3.mp4" type="video/mp4" />
+          </video>
           <div class="slide-content">
             <p class="slide-kicker">Thiên Chúa giáo</p>
             <h2>Nhà thờ và tâm linh</h2>
@@ -891,6 +898,9 @@ function renderHome() {
           </div>
         </div>
         <div class="carousel-slide">
+          <video class="carousel-media" autoplay muted loop playsinline preload="metadata" aria-label="Video nền trang chủ 4">
+            <source src="./content/images/homepage/home4.mp4" type="video/mp4" />
+          </video>
           <div class="slide-content">
             <p class="slide-kicker">Tín ngưỡng khác</p>
             <h2>Đa dạng tôn giáo</h2>
